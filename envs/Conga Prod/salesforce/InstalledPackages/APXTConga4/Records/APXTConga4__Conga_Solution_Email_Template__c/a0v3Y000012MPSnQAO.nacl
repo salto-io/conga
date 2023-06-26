@@ -1,0 +1,6 @@
+salesforce.APXTConga4__Conga_Solution_Email_Template__c a0v3Y000012MPSnQAO {
+  APXTConga4__Conga_Email_Template__c = salesforce.APXTConga4__Conga_Email_Template__c.instance.a0t3Y00000Jnf1KQAR
+  APXTConga4__Conga_Solution__c = salesforce.APXTConga4__Conga_Solution__c.instance.a103Y00000PVvb8QAD
+  APXTConga4__IsDefault__c = true
+  _alias = "Don CSET-0000"
+}

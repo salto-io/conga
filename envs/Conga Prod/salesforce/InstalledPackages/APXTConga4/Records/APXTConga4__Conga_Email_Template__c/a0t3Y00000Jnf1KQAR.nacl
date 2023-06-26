@@ -1,0 +1,8 @@
+salesforce.APXTConga4__Conga_Email_Template__c a0t3Y00000Jnf1KQAR {
+  APXTConga4__HTMLBody__c = "Please review your account details below"
+  APXTConga4__Is_Body_Attachment__c = false
+  APXTConga4__Key__c = "0E_000UAK943125"
+  APXTConga4__Name__c = "Starter template"
+  APXTConga4__Subject__c = "Your account details"
+  _alias = "CET-00000"
+}

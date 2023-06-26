@@ -1,0 +1,7 @@
+salesforce.APXTConga4__Conga_Merge_Query__c a0u3Y00004MQes9QAD {
+  APXTConga4__Description__c = "Created By Solution Pack for Composer Solution: Don (APXTConga4__Composer_QuickMerge__c)"
+  APXTConga4__Key__c = "0Q_000UAK909211"
+  APXTConga4__Name__c = "GM - Opportunities [Opp]"
+  APXTConga4__Query__c = "SELECT CloseDate, Amount, Owner.name, (SELECT id,Contact.FirstName, Contact.LastName, Contact.MailingStreet, Contact.MailingCity, Contact.MailingState, Contact.MailingPostalCode FROM OpportunityContactRoles WHERE IsPrimary = true LIMIT 1) FROM Opportunity WHERE IsWon = true AND CloseDate = LAST_MONTHAND Amount > 0 AND ContactId != null\rOpp Count - Donation Receipt [OppCount] SELECT count(id) total FROM Opportunity WHERE IsWon = true AND CloseDate = LAST_MONTH AND Amount > 0 AND ContactId != null"
+  _alias = "CMQ-0000"
+}

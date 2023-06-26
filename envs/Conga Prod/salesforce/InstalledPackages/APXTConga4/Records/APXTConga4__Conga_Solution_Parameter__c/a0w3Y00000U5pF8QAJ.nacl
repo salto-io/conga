@@ -1,0 +1,6 @@
+salesforce.APXTConga4__Conga_Solution_Parameter__c a0w3Y00000U5pF8QAJ {
+  APXTConga4__Conga_Solution__c = salesforce.APXTConga4__Conga_Solution__c.instance.a103Y00000PVvb8QAD
+  APXTConga4__Name__c = "BML"
+  APXTConga4__Value__c = "Generating+Donation+Receipts"
+  _alias = "Don CSP-000003"
+}

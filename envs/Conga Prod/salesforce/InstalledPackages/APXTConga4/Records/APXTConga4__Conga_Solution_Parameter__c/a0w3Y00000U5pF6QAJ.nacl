@@ -1,0 +1,6 @@
+salesforce.APXTConga4__Conga_Solution_Parameter__c a0w3Y00000U5pF6QAJ {
+  APXTConga4__Conga_Solution__c = salesforce.APXTConga4__Conga_Solution__c.instance.a103Y00000PVvb8QAD
+  APXTConga4__Name__c = "OFN"
+  APXTConga4__Value__c = "Donation+Receipts+-+{!Today()}"
+  _alias = "Don CSP-000001"
+}

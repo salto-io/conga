@@ -1,0 +1,29 @@
+salesforce.APXTConga4__Conga_Solution__c a103Y00000PVvb8QAD {
+  APXTConga4__Button_Link_API_Name__c = "Conga_Composer_Don"
+  APXTConga4__Button_body_field__c = '''
+/apex/APXTConga4__Conga_Composer?SolMgr=1
+&serverUrl={!API.Partner_Server_URL_520}
+&Id={!APXTConga4__Composer_QuickMerge__c.Id}
+
+&QueryId=[Opp]0Q_000UAK909211
+
+&TemplateId=0T_000UAK884508
+
+&DefaultPDF=1
+&OFN=Donation Receipts - {!Today()}
+&DS7=3
+&BML=Generating Donation Receipts
+'''
+  APXTConga4__Composer_Parameters__c = '''
+&QueryId=[Opp]0Q_000UAK909211&TemplateId=0T_000UAK884508&DefaultPDF=1
+&OFN=Donation Receipts - {!Today()}
+&DS7=3
+&BML=Generating Donation Receipts
+'''
+  APXTConga4__Is_Quick_Start__c = "true"
+  APXTConga4__Master_Object_Type__c = "APXTConga4__Composer_QuickMerge__c"
+  APXTConga4__Solution_Description__c = "Created By Conga Composer Quick Start"
+  APXTConga4__Weblink_Id__c = "00b3Y000001WBzg"
+  Name = "Don"
+  _alias = "Don"
+}

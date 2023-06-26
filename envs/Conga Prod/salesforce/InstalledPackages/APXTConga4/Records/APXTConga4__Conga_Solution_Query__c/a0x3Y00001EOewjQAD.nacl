@@ -1,0 +1,7 @@
+salesforce.APXTConga4__Conga_Solution_Query__c a0x3Y00001EOewjQAD {
+  APXTConga4__Alias__c = "Opp"
+  APXTConga4__Comments__c = "Created By Solution Pack"
+  APXTConga4__Conga_Query__c = salesforce.APXTConga4__Conga_Merge_Query__c.instance.a0u3Y00004MQes9QAD
+  APXTConga4__Conga_Solution__c = salesforce.APXTConga4__Conga_Solution__c.instance.a103Y00000PVvb8QAD
+  _alias = "Don CSQ-00000"
+}
