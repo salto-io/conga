@@ -1,0 +1,23 @@
+type salesforce.ContractLineOutcomeData {
+  salesforce.Unknown CalculatedValue {
+    apiName = "ContractLineOutcomeData.CalculatedValue"
+    _hidden_value = true
+  }
+  salesforce.Unknown CaptureDate {
+    apiName = "ContractLineOutcomeData.CaptureDate"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail ContractLineOutcomeId {
+    apiName = "ContractLineOutcomeData.ContractLineOutcomeId"
+    _hidden_value = true
+  }
+  salesforce.Unknown KeyPerformanceIndicator {
+    apiName = "ContractLineOutcomeData.KeyPerformanceIndicator"
+    inlineHelpText = "The property on the asset used as Key Performance Indicator."
+    _hidden_value = true
+  }
+  salesforce.Unknown Value {
+    apiName = "ContractLineOutcomeData.Value"
+    _hidden_value = true
+  }
+}

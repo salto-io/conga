@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__DocuSignBehaviorWrapper {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__DocuSignBehaviorWrapper"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__DocuSignBehaviorWrapper.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__SLDS080 {
+  cacheControl = "Public"
+  contentType = "application/zip"
+  fullName = "APXTConga4__SLDS080"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__SLDS080.zip")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

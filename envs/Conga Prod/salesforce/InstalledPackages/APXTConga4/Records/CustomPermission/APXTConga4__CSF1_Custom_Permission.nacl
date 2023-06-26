@@ -1,0 +1,11 @@
+salesforce.CustomPermission APXTConga4__CSF1_Custom_Permission {
+  fullName = "APXTConga4__CSF1_Custom_Permission"
+  connectedApp = "APXTConga4__Conga_Composer_SF1"
+  isLicensed = false
+  label = "CSF1 Custom Permission"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

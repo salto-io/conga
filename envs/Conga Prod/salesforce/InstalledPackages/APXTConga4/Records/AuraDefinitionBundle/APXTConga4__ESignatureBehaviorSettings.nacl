@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__ESignatureBehaviorSettings {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__ESignatureBehaviorSettings"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

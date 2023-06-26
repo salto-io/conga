@@ -1,0 +1,18 @@
+salesforce.AuraDefinitionBundle APXTConga4__AppForVisualForcePages {
+  apiVersion = 52
+  description = "Dependency app for lightning out on VF pages"
+  fullName = "APXTConga4__AppForVisualForcePages"
+  type = "Application"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  rendererContent = "(hidden)"
+  SVGContent = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

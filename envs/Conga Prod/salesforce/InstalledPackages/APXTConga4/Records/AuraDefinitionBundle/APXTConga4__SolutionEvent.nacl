@@ -1,0 +1,12 @@
+salesforce.AuraDefinitionBundle APXTConga4__SolutionEvent {
+  apiVersion = 52
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__SolutionEvent"
+  type = "Event"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

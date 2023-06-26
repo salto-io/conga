@@ -1,0 +1,12 @@
+salesforce.AuraDefinitionBundle APXTConga4__StepEvent {
+  apiVersion = 52
+  description = "Event when a wizard progression step is needed"
+  fullName = "APXTConga4__StepEvent"
+  type = "Event"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

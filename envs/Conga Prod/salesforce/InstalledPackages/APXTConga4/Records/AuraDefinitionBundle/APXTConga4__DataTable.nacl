@@ -1,0 +1,18 @@
+salesforce.AuraDefinitionBundle APXTConga4__DataTable {
+  apiVersion = 52
+  description = "table component"
+  fullName = "APXTConga4__DataTable"
+  type = "Component"
+  SVGContent = "(hidden)"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,87 @@
+type salesforce.APXTConga4__Document_History__c {
+  salesforce.Lookup APXTConga4__Conga_Solution__c {
+    apiName = "APXTConga4__Document_History__c.APXTConga4__Conga_Solution__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Conga Solution"
+    referenceTo = [
+      salesforce.APXTConga4__Conga_Solution__c,
+    ]
+    relationshipLabel = "Document Histories"
+    relationshipName = "Document_Histories"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Summary APXTConga4__Last_Viewed__c {
+    apiName = "APXTConga4__Document_History__c.APXTConga4__Last_Viewed__c"
+    deprecated = false
+    externalId = false
+    label = "Last Viewed"
+    summarizedField = "APXTConga4__Document_History_Detail__c.APXTConga4__Last_Viewed__c"
+    summaryForeignKey = "APXTConga4__Document_History_Detail__c.APXTConga4__Document_History__c"
+    summaryOperation = "max"
+    trackTrending = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text APXTConga4__Link_Text__c {
+    apiName = "APXTConga4__Document_History__c.APXTConga4__Link_Text__c"
+    deprecated = false
+    externalId = false
+    label = "Link Text"
+    length = 80
+    _required = true
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Master_Object_ID__c {
+    apiName = "APXTConga4__Document_History__c.APXTConga4__Master_Object_ID__c"
+    deprecated = false
+    externalId = false
+    label = "Master Object ID"
+    length = 18
+    _required = true
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Summary APXTConga4__Number_of_Views__c {
+    apiName = "APXTConga4__Document_History__c.APXTConga4__Number_of_Views__c"
+    deprecated = false
+    externalId = false
+    label = "Number of Views"
+    summarizedField = "APXTConga4__Document_History_Detail__c.APXTConga4__Number_of_Views__c"
+    summaryForeignKey = "APXTConga4__Document_History_Detail__c.APXTConga4__Document_History__c"
+    summaryOperation = "sum"
+    trackTrending = false
+    precision = 18
+    scale = 0
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Url APXTConga4__URL__c {
+    apiName = "APXTConga4__Document_History__c.APXTConga4__URL__c"
+    deprecated = false
+    externalId = false
+    label = "URL"
+    _required = true
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

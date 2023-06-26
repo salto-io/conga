@@ -1,0 +1,11 @@
+salesforce.RemoteSiteSetting APXTConga4__CongaSolutionExport {
+  fullName = "APXTConga4__CongaSolutionExport"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://composer-migration.congamerge.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

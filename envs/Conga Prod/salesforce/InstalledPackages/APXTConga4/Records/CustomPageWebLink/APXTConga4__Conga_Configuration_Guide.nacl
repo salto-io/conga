@@ -1,0 +1,25 @@
+salesforce.CustomPageWebLink APXTConga4__Conga_Configuration_Guide {
+  fullName = "APXTConga4__Conga_Configuration_Guide"
+  availability = "online"
+  description = "This PDF describes the best-practices in configuring Conga Composer and is intended for system administrators."
+  displayType = "link"
+  encodingKey = "UTF-8"
+  hasMenubar = false
+  hasScrollbars = true
+  hasToolbar = false
+  height = 600
+  isResizable = true
+  linkType = "url"
+  masterLabel = "Conga Configuration Guide"
+  openType = "newWindow"
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  url = "http://knowledge.congasphere.com/congakb/wf/uploadfiles/files/Conga_Composer_Configuration_Guide.pdf"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

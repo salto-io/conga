@@ -1,0 +1,95 @@
+type salesforce.APXTConga4__Document_History_Detail__c {
+  salesforce.MasterDetail APXTConga4__Document_History__c {
+    apiName = "APXTConga4__Document_History_Detail__c.APXTConga4__Document_History__c"
+    deprecated = false
+    externalId = false
+    label = "Document History"
+    referenceTo = [
+      salesforce.APXTConga4__Document_History__c,
+    ]
+    relationshipLabel = "Document History Details"
+    relationshipName = "Document_History_Details"
+    relationshipOrder = 0
+    reparentableMasterDetail = false
+    trackTrending = false
+    writeRequiresMasterRead = false
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Picklist APXTConga4__Document_Status__c {
+    apiName = "APXTConga4__Document_History_Detail__c.APXTConga4__Document_Status__c"
+    deprecated = false
+    externalId = false
+    label = "Document Status"
+    _required = true
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "Generated"
+        default = true
+        label = "Generated"
+      },
+      {
+        fullName = "Viewed"
+        default = false
+        label = "Viewed"
+      },
+      {
+        fullName = "Expired"
+        default = false
+        label = "Expired"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Email APXTConga4__Email_Address__c {
+    apiName = "APXTConga4__Document_History_Detail__c.APXTConga4__Email_Address__c"
+    deprecated = false
+    externalId = false
+    label = "Email Address"
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.DateTime APXTConga4__Last_Viewed__c {
+    apiName = "APXTConga4__Document_History_Detail__c.APXTConga4__Last_Viewed__c"
+    deprecated = false
+    externalId = false
+    label = "Last Viewed"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Number APXTConga4__Number_of_Views__c {
+    apiName = "APXTConga4__Document_History_Detail__c.APXTConga4__Number_of_Views__c"
+    deprecated = false
+    externalId = false
+    label = "Number of Views"
+    precision = 18
+    _required = true
+    scale = 0
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Phone APXTConga4__SMS_Number__c {
+    apiName = "APXTConga4__Document_History_Detail__c.APXTConga4__SMS_Number__c"
+    deprecated = false
+    externalId = false
+    label = "SMS Number"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

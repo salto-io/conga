@@ -1,0 +1,11 @@
+salesforce.SharingRules APXTConga4__Composer_Host_Override__c {
+  fullName = "APXTConga4__Composer_Host_Override__c"
+  _parent = [
+    salesforce.APXTConga4__Composer_Host_Override__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

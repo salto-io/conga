@@ -1,0 +1,216 @@
+type salesforce.APXTConga4__Conga_Solution__c {
+  salesforce.TextArea APXTConga4__Button_Link_API_Name__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Button_Link_API_Name__c"
+    deprecated = false
+    externalId = false
+    label = "Button/Link API Name"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Button_body_field__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Button_body_field__c"
+    deprecated = false
+    externalId = false
+    label = "Button Body (URL)"
+    length = 32768
+    trackTrending = false
+    visibleLines = 10
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Composer_Parameters__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Composer_Parameters__c"
+    deprecated = false
+    externalId = false
+    label = "Composer Parameters"
+    length = 32768
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Summary APXTConga4__CongaEmailTemplateCount__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__CongaEmailTemplateCount__c"
+    deprecated = false
+    externalId = false
+    label = "Conga Email Template Count"
+    summaryForeignKey = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__Conga_Solution__c"
+    summaryOperation = "count"
+    trackTrending = false
+    precision = 18
+    scale = 0
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text APXTConga4__Custom_Object_Id__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Custom_Object_Id__c"
+    deprecated = false
+    externalId = false
+    label = "Custom Object Id"
+    length = 18
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__Formula_Field_API_Name__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Formula_Field_API_Name__c"
+    deprecated = false
+    externalId = false
+    label = "Formula Field API Name"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Formula_body_field__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Formula_body_field__c"
+    deprecated = false
+    externalId = false
+    label = "Formula Field Body"
+    length = 32768
+    trackTrending = false
+    visibleLines = 10
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Is_Quick_Start__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Is_Quick_Start__c"
+    deprecated = false
+    externalId = false
+    label = "Is Quick Start"
+    length = 80
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.FormulaText APXTConga4__Launch_C8_Formula_Button__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Launch_C8_Formula_Button__c"
+    deprecated = false
+    externalId = false
+    formula = '''
+IF( OR(APXTConga4__Sample_Record_Id__c = "",  APXTConga4__Button_Link_API_Name__c = ""), IMAGE( "/resource/DisabledLaunchButton" , "Launch Composer"), 
+
+HYPERLINK("https://" & MID( $Api.Enterprise_Server_URL_320, FIND("://", $Api.Enterprise_Server_URL_100)+3, FIND( ".com", $Api.Enterprise_Server_URL_100 )-4) 
+& "servlet/servlet.Integration?lid=" & APXTConga4__Weblink_Id__c 
+& "&eid=" & APXTConga4__Sample_Record_Id__c & "&ic=1" 
+, IMAGE( "/resource/ComposerLaunchButton" , "Launch Composer"), "_blank" ) 
+)
+'''
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Launch"
+    trackTrending = false
+    unique = false
+    createable = false
+    updateable = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.APXTConga4__Conga_Solution__c.field.APXTConga4__Button_Link_API_Name__c
+      },
+      {
+        reference = salesforce.APXTConga4__Conga_Solution__c.field.APXTConga4__Sample_Record_Id__c
+      },
+      {
+        reference = salesforce.APXTConga4__Conga_Solution__c.field.APXTConga4__Weblink_Id__c
+      },
+    ]
+  }
+  salesforce.TextArea APXTConga4__Master_Object_Type_Validator__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Master_Object_Type_Validator__c"
+    deprecated = false
+    externalId = false
+    label = "Master Object Type Validator"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__Master_Object_Type__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Master_Object_Type__c"
+    deprecated = false
+    externalId = false
+    label = "Master Object Type"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Sample_Record_Id__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Sample_Record_Id__c"
+    deprecated = false
+    externalId = false
+    label = "Sample Record Id"
+    length = 18
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Sample_Record_Name__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Sample_Record_Name__c"
+    deprecated = false
+    externalId = false
+    label = "Sample Record Name"
+    length = 80
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Solution_Description__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Solution_Description__c"
+    deprecated = false
+    externalId = false
+    label = "Solution Description"
+    length = 32768
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Solution_Weblink_Syntax__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Solution_Weblink_Syntax__c"
+    deprecated = false
+    externalId = false
+    label = "Solution Weblink Syntax"
+    length = 32768
+    trackTrending = false
+    visibleLines = 10
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Weblink_Id__c {
+    apiName = "APXTConga4__Conga_Solution__c.APXTConga4__Weblink_Id__c"
+    deprecated = false
+    externalId = false
+    label = "Weblink Id"
+    length = 18
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

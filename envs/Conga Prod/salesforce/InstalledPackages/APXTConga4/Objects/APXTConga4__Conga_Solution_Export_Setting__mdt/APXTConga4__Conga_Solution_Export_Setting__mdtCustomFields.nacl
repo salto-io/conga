@@ -1,0 +1,15 @@
+type salesforce.APXTConga4__Conga_Solution_Export_Setting__mdt {
+  salesforce.MetadataRelationship APXTConga4__Conga_Solution_Export_Environment__c {
+    apiName = "APXTConga4__Conga_Solution_Export_Setting__mdt.APXTConga4__Conga_Solution_Export_Environment__c"
+    deprecated = false
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Conga Solution Export Environment"
+    referenceTo = [
+      "APXTConga4__Conga_Solution_Export_Environment__mdt",
+    ]
+    relationshipLabel = "Conga Solution Export Settings"
+    relationshipName = "Conga_Solution_Export_Settings"
+    unique = false
+  }
+}

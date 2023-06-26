@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__notifSettings {
+  fullName = "APXTConga4__notifSettings"
+  lwcResources = {
+    lwcResource = {
+      notifSettings_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/notifSettings/notifSettings.js"
+      }
+      notifSettings_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/notifSettings/notifSettings.html"
+      }
+      notifSettings_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/notifSettings/notifSettings.css"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

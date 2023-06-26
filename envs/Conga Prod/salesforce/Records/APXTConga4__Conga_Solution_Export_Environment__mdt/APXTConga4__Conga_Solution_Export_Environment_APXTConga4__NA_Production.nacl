@@ -1,0 +1,11 @@
+salesforce.APXTConga4__Conga_Solution_Export_Environment__mdt APXTConga4__Conga_Solution_Export_Environment_APXTConga4__NA_Production@uuuuuvuuu {
+  label = "NA Production"
+  protected = false
+  fullName = "APXTConga4__Conga_Solution_Export_Environment.APXTConga4__NA_Production"
+  APXTConga4__Export_Endpoint__c = "https://composer-migration.congamerge.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

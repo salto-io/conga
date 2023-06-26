@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__composerTemplateTab {
+  fullName = "APXTConga4__composerTemplateTab"
+  lwcResources = {
+    lwcResource = {
+      composerTemplateTab_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/composerTemplateTab/composerTemplateTab.html"
+      }
+      composerTemplateTab_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/composerTemplateTab/composerTemplateTab.css"
+      }
+      composerTemplateTab_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/composerTemplateTab/composerTemplateTab.js"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

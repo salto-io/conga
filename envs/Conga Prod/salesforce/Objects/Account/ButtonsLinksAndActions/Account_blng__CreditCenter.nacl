@@ -1,0 +1,19 @@
+salesforce.WebLink Account_blng__CreditCenter {
+  fullName = "Account.blng__CreditCenter"
+  availability = "online"
+  displayType = "button"
+  height = 600
+  linkType = "page"
+  masterLabel = "Credit Center"
+  openType = "sidebar"
+  page = "blng__creditByInvoice"
+  protected = false
+  _parent = [
+    salesforce.Account,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.blng
+    },
+  ]
+}

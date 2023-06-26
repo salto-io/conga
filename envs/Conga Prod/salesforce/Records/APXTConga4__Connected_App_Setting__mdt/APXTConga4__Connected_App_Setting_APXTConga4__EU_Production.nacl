@@ -1,0 +1,13 @@
+salesforce.APXTConga4__Connected_App_Setting__mdt APXTConga4__Connected_App_Setting_APXTConga4__EU_Production@uuuuvuuu {
+  label = "EU Production"
+  protected = false
+  fullName = "APXTConga4__Connected_App_Setting.APXTConga4__EU_Production"
+  APXTConga4__Connected_App_Name_SF1__c = "Conga_Composer_SF1_EU"
+  APXTConga4__Connected_App_Name__c = "Conga_Composer_EU"
+  APXTConga4__Hostname__c = "eu-composer.congamerge.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

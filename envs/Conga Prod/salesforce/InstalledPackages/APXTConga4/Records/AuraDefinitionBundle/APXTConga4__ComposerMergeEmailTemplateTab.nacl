@@ -1,0 +1,14 @@
+salesforce.AuraDefinitionBundle APXTConga4__ComposerMergeEmailTemplateTab {
+  apiVersion = 44
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__ComposerMergeEmailTemplateTab"
+  type = "Component"
+  controllerContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

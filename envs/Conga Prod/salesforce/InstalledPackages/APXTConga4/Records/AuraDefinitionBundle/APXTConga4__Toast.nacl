@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__Toast {
+  apiVersion = 52
+  description = "Parent from which all steps inherit from"
+  fullName = "APXTConga4__Toast"
+  type = "Component"
+  SVGContent = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  rendererContent = "(hidden)"
+  designContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,21 @@
+salesforce.ListView APXTConga4__Composer_QuickMerge__c_APXTConga4__All {
+  fullName = "APXTConga4__Composer_QuickMerge__c.APXTConga4__All"
+  columns = [
+    "NAME",
+    "APXTConga4__Weblink_Name_Formula__c",
+    "APXTConga4__Conga_Solution__c",
+    "APXTConga4__Weblink_ID_Formula__c",
+    "UPDATEDBY_USER",
+    "APXTConga4__Launch_CM8__c",
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.APXTConga4__Composer_QuickMerge__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

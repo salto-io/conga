@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__PrimaryContact {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__PrimaryContact"
+  type = "Component"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

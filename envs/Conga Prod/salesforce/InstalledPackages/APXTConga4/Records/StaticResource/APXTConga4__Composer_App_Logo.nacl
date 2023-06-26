@@ -1,0 +1,12 @@
+salesforce.StaticResource APXTConga4__Composer_App_Logo {
+  cacheControl = "Private"
+  contentType = "image/png"
+  description = "The Composer logo for connected apps."
+  fullName = "APXTConga4__Composer_App_Logo"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__Composer_App_Logo.png")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

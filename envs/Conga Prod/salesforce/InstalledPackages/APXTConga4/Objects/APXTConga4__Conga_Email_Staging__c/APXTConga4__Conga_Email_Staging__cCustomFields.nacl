@@ -1,0 +1,64 @@
+type salesforce.APXTConga4__Conga_Email_Staging__c {
+  salesforce.Html APXTConga4__HTMLBody__c {
+    apiName = "APXTConga4__Conga_Email_Staging__c.APXTConga4__HTMLBody__c"
+    deprecated = false
+    externalId = false
+    label = "HTML Body"
+    length = 32768
+    trackTrending = false
+    visibleLines = 25
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Subject__c {
+    apiName = "APXTConga4__Conga_Email_Staging__c.APXTConga4__Subject__c"
+    deprecated = false
+    externalId = false
+    label = "Subject"
+    length = 2000
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__TextBody__c {
+    apiName = "APXTConga4__Conga_Email_Staging__c.APXTConga4__TextBody__c"
+    deprecated = false
+    externalId = false
+    label = "Text Body"
+    length = 32768
+    trackTrending = false
+    visibleLines = 10
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__WhatId__c {
+    apiName = "APXTConga4__Conga_Email_Staging__c.APXTConga4__WhatId__c"
+    deprecated = false
+    externalId = false
+    label = "WhatId"
+    length = 18
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text APXTConga4__WhoId__c {
+    apiName = "APXTConga4__Conga_Email_Staging__c.APXTConga4__WhoId__c"
+    deprecated = false
+    externalId = false
+    label = "WhoId"
+    length = 18
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

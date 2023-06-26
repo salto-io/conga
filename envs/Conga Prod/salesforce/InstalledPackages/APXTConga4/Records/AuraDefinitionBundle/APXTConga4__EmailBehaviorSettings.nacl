@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__EmailBehaviorSettings {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__EmailBehaviorSettings"
+  type = "Component"
+  styleContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

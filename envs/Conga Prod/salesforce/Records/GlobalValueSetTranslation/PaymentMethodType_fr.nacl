@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentMethodType_fr@b {
+  fullName = "PaymentMethodType-fr"
+}

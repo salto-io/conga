@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting APXTConga4__CongaMergeServices {
+  fullName = "APXTConga4__CongaMergeServices"
+  description = "Composer services"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://services.congamerge.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

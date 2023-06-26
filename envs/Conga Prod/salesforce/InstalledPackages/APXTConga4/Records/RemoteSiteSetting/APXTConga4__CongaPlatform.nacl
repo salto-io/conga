@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting APXTConga4__CongaPlatform {
+  fullName = "APXTConga4__CongaPlatform"
+  description = "Conga Platform services"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://na-platform.congaplatform.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

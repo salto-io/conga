@@ -1,0 +1,18 @@
+salesforce.ApexClass APXTConga4__LocalTemplateUploader {
+  apiVersion = 52
+  packageVersions = [
+    {
+      majorNumber = 8
+      minorNumber = 234
+      namespace = "APXTConga4"
+    },
+  ]
+  status = "Active"
+  fullName = "APXTConga4__LocalTemplateUploader"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

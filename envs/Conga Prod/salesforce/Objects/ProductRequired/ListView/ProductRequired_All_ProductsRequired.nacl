@@ -1,0 +1,8 @@
+salesforce.ListView ProductRequired_All_ProductsRequired {
+  fullName = "ProductRequired.All_ProductsRequired"
+  filterScope = "Everything"
+  label = "All Products Required"
+  _parent = [
+    salesforce.ProductRequired,
+  ]
+}

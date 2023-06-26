@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__SolutionStep {
+  apiVersion = 52
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "SolutionStep"
+  fullName = "APXTConga4__SolutionStep"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__SolutionStep.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

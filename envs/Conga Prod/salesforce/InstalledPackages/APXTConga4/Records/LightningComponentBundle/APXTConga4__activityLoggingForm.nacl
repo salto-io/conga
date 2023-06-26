@@ -1,0 +1,20 @@
+salesforce.LightningComponentBundle APXTConga4__activityLoggingForm {
+  fullName = "APXTConga4__activityLoggingForm"
+  lwcResources = {
+    lwcResource = {
+      activityLoggingForm_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/activityLoggingForm/activityLoggingForm.js"
+      }
+      activityLoggingForm_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/activityLoggingForm/activityLoggingForm.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,56 @@
+type salesforce.APXTConga4__VersionedData__c {
+  salesforce.Text APXTConga4__Key__c {
+    apiName = "APXTConga4__VersionedData__c.APXTConga4__Key__c"
+    deprecated = false
+    externalId = false
+    label = "Flag Key"
+    length = 255
+    _required = true
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Kind__c {
+    apiName = "APXTConga4__VersionedData__c.APXTConga4__Kind__c"
+    deprecated = false
+    externalId = false
+    label = "Feature kind"
+    length = 255
+    _required = true
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Raw__c {
+    apiName = "APXTConga4__VersionedData__c.APXTConga4__Raw__c"
+    deprecated = false
+    externalId = false
+    label = "Raw Flag Object"
+    length = 131072
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Number APXTConga4__Version__c {
+    apiName = "APXTConga4__VersionedData__c.APXTConga4__Version__c"
+    deprecated = false
+    externalId = false
+    label = "Flag Version"
+    precision = 15
+    _required = true
+    scale = 0
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

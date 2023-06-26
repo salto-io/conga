@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__DocuSignRecipientWrapper {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__DocuSignRecipientWrapper"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__DocuSignRecipientWrapper.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

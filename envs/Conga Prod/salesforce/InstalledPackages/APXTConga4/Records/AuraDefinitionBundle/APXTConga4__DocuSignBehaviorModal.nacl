@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__DocuSignBehaviorModal {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__DocuSignBehaviorModal"
+  type = "Component"
+  helperContent = "(hidden)"
+  rendererContent = "(hidden)"
+  controllerContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

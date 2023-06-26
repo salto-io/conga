@@ -1,0 +1,142 @@
+salesforce.Layout APXTConga4__Conga_Solution_Report__c_APXTConga4__Conga_Solution_Report_Layout@uuuuuubuusss {
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__Conga_Solution__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Report Details"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__Report_Name__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__Report_Id_Link__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__Alias__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__pv0__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__pv1__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__pv2__c
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = true
+      detailHeading = false
+      editHeading = true
+      label = "Comments"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.APXTConga4__Comments__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Report__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h6000000Bcz5e"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "APXTConga4__Conga_Solution_Report__c-APXTConga4__Conga Solution Report Layout"
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution_Report__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

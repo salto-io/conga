@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation UsageStatus_fr@b {
+  fullName = "UsageStatus-fr"
+}

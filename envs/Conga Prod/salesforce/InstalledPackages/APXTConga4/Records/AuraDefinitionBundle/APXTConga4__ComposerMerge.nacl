@@ -1,0 +1,18 @@
+salesforce.AuraDefinitionBundle APXTConga4__ComposerMerge {
+  apiVersion = 44
+  description = "Composer merge UI for Lightning Component"
+  fullName = "APXTConga4__ComposerMerge"
+  type = "Component"
+  rendererContent = "(hidden)"
+  designContent = "(hidden)"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

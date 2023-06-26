@@ -1,0 +1,19 @@
+salesforce.EmailTemplate APXTConga4__Conga_Email_Staging_Templates_APXTConga4__Conga_Email_Staging_Template@uuuuuduuuuu {
+  available = true
+  description = "*** DO NOT DELETE THIS COMPONENT -- IT CANNOT BE UNDELETED ****"
+  encodingKey = "ISO-8859-1"
+  letterhead = salesforce.Letterhead.instance.APXTConga4__Conga_Email_Letterhead
+  name = "Conga Email Staging Template"
+  style = "freeForm"
+  subject = "{!APXTConga4__Conga_Email_Staging__c.APXTConga4__Subject__c}"
+  textOnly = "{!APXTConga4__Conga_Email_Staging__c.APXTConga4__TextBody__c}"
+  type = "html"
+  uiType = "Aloha"
+  fullName = "APXTConga4__Conga_Email_Staging_Templates/APXTConga4__Conga_Email_Staging_Template"
+  content = file("salesforce/Records/EmailTemplate/APXTConga4__Conga_Email_Staging_Templates/APXTConga4__Conga_Email_Staging_Template/APXTConga4__Conga_Email_Staging_Template.email")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

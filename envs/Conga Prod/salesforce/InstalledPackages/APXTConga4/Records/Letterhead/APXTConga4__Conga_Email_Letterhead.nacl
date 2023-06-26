@@ -1,0 +1,36 @@
+salesforce.Letterhead APXTConga4__Conga_Email_Letterhead {
+  fullName = "APXTConga4__Conga_Email_Letterhead"
+  available = true
+  backgroundColor = "#CCCCCC"
+  bodyColor = "#FFFFFF"
+  bottomLine = {
+    color = "#AAAAFF"
+    height = 5
+  }
+  footer = {
+    backgroundColor = "#FFFFFF"
+    height = 100
+    horizontalAlignment = "Left"
+    verticalAlignment = "Top"
+  }
+  header = {
+    backgroundColor = "#FFFFFF"
+    height = 100
+    horizontalAlignment = "Left"
+    verticalAlignment = "Top"
+  }
+  middleLine = {
+    color = "#AAAAFF"
+    height = 5
+  }
+  name = "Conga Email Letterhead"
+  topLine = {
+    color = "#AAAAFF"
+    height = 5
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

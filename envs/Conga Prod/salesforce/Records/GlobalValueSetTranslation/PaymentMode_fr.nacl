@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentMode_fr@b {
+  fullName = "PaymentMode-fr"
+}

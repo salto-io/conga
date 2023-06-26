@@ -1,0 +1,54 @@
+salesforce.Layout ContractLineOutcomeData_Contract_Line_Outcome_Data_Layout@bssss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "Name"
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcomeData.field.Value
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcomeData.field.ContractLineOutcomeId
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcomeData.field.CaptureDate
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      layoutColumns = [
+        {
+        },
+      ]
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "ContractLineOutcomeData-Contract Line Outcome Data Layout"
+  _parent = [
+    salesforce.ContractLineOutcomeData,
+  ]
+}

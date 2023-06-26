@@ -1,0 +1,15 @@
+salesforce.ValidationRule OrderItem_blng__BIllingRuleMustBeSelected {
+  fullName = "OrderItem.blng__BIllingRuleMustBeSelected"
+  active = true
+  description = "Billing Rule must be selected"
+  errorConditionFormula = "AND(OR(ISNEW(), AND (ISCHANGED(SBQQ__Activated__c), SBQQ__Activated__c)), ISBLANK(blng__BillingRule__c))"
+  errorMessage = "Billing Rule must be selected"
+  _parent = [
+    salesforce.OrderItem,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.blng
+    },
+  ]
+}

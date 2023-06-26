@@ -1,0 +1,98 @@
+type salesforce.APXTConga4__Conga_Solution_Email_Template__c {
+  salesforce.TextArea APXTConga4__Comments__c {
+    apiName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__Comments__c"
+    deprecated = false
+    externalId = false
+    label = "Description"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.FormulaText APXTConga4__Conga_Email_Template_Group__c {
+    apiName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__Conga_Email_Template_Group__c"
+    deprecated = false
+    externalId = false
+    formula = "APXTConga4__Conga_Email_Template__r.APXTConga4__Template_Group__c"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Conga Email Template Group"
+    trackTrending = false
+    unique = false
+    createable = false
+    updateable = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Email_Template__c
+      },
+    ]
+  }
+  salesforce.FormulaText APXTConga4__Conga_Email_Template_Name__c {
+    apiName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__Conga_Email_Template_Name__c"
+    deprecated = false
+    externalId = false
+    formula = "APXTConga4__Conga_Email_Template__r.APXTConga4__Name__c"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Conga Email Template Name"
+    trackTrending = false
+    unique = false
+    createable = false
+    updateable = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Email_Template__c
+      },
+    ]
+  }
+  salesforce.Lookup APXTConga4__Conga_Email_Template__c {
+    apiName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__Conga_Email_Template__c"
+    deleteConstraint = "Restrict"
+    deprecated = false
+    externalId = false
+    label = "Conga Email Template"
+    referenceTo = [
+      salesforce.APXTConga4__Conga_Email_Template__c,
+    ]
+    relationshipLabel = "Conga Solution Email Templates"
+    relationshipName = "Conga_Solution_Email_Templates"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.MasterDetail APXTConga4__Conga_Solution__c {
+    apiName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__Conga_Solution__c"
+    deprecated = false
+    externalId = false
+    label = "Conga Solution"
+    referenceTo = [
+      salesforce.APXTConga4__Conga_Solution__c,
+    ]
+    relationshipLabel = "Conga Solution Email Templates"
+    relationshipName = "Conga_Solution_Email_Templates"
+    relationshipOrder = 0
+    reparentableMasterDetail = false
+    trackTrending = false
+    writeRequiresMasterRead = false
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Checkbox APXTConga4__IsDefault__c {
+    apiName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__IsDefault__c"
+    defaultValue = false
+    deprecated = false
+    description = "If the value is true, the related email template will be used. Also for one solution, only one record can be IsDefault = true, the others must be IsDefault = false."
+    externalId = false
+    label = "IsDefault"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

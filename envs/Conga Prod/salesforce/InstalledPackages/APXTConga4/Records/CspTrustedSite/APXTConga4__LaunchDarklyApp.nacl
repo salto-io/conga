@@ -1,0 +1,17 @@
+salesforce.CspTrustedSite APXTConga4__LaunchDarklyApp {
+  fullName = "APXTConga4__LaunchDarklyApp"
+  context = "All"
+  endpointUrl = "https://app.launchdarkly.com"
+  isActive = true
+  isApplicableToConnectSrc = true
+  isApplicableToFontSrc = false
+  isApplicableToFrameSrc = false
+  isApplicableToImgSrc = false
+  isApplicableToMediaSrc = false
+  isApplicableToStyleSrc = false
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,20 @@
+salesforce.LightningComponentBundle APXTConga4__saveCopy {
+  fullName = "APXTConga4__saveCopy"
+  lwcResources = {
+    lwcResource = {
+      saveCopy_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/saveCopy/saveCopy.js"
+      }
+      saveCopy_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/saveCopy/saveCopy.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

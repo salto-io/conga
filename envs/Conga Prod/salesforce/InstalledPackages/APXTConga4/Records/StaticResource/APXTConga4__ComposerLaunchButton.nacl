@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__ComposerLaunchButton {
+  cacheControl = "Private"
+  contentType = "image/png"
+  fullName = "APXTConga4__ComposerLaunchButton"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__ComposerLaunchButton.png")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

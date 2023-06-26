@@ -1,0 +1,13 @@
+salesforce.APXTConga4__Connected_App_Setting__mdt APXTConga4__Connected_App_Setting_APXTConga4__NA_Production@uuuuvuuu {
+  label = "NA Production"
+  protected = false
+  fullName = "APXTConga4__Connected_App_Setting.APXTConga4__NA_Production"
+  APXTConga4__Connected_App_Name_SF1__c = "Conga_Composer_SF1"
+  APXTConga4__Connected_App_Name__c = "Conga_Composer"
+  APXTConga4__Hostname__c = "composer.congamerge.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

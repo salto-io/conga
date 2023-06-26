@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__DataStep {
+  apiVersion = 52
+  description = "Add data to solution"
+  fullName = "APXTConga4__DataStep"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  designContent = "(hidden)"
+  SVGContent = "(hidden)"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

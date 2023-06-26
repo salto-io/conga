@@ -1,0 +1,11 @@
+salesforce.RemoteSiteSetting APXTConga4__SalesforceOAuth {
+  fullName = "APXTConga4__SalesforceOAuth"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://login.salesforce.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

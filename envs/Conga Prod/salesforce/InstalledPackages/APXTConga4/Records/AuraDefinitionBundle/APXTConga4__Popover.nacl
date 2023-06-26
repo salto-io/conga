@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__Popover {
+  apiVersion = 40
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__Popover"
+  type = "Component"
+  markup = "(hidden)"
+  rendererContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__ComposerParameters {
+  cacheControl = "Private"
+  contentType = "text/plain"
+  fullName = "APXTConga4__ComposerParameters"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__ComposerParameters.txt")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

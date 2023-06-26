@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__localTemplateTab {
+  fullName = "APXTConga4__localTemplateTab"
+  lwcResources = {
+    lwcResource = {
+      localTemplateTab_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/localTemplateTab/localTemplateTab.html"
+      }
+      localTemplateTab_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/localTemplateTab/localTemplateTab.js"
+      }
+      localTemplateTab_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/localTemplateTab/localTemplateTab.css"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

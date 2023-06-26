@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__Composer_SF1_Icon {
+  cacheControl = "Private"
+  contentType = "image/png"
+  fullName = "APXTConga4__Composer_SF1_Icon"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__Composer_SF1_Icon.png")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

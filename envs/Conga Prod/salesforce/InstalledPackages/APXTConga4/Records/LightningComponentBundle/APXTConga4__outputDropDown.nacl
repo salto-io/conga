@@ -1,0 +1,20 @@
+salesforce.LightningComponentBundle APXTConga4__outputDropDown {
+  fullName = "APXTConga4__outputDropDown"
+  lwcResources = {
+    lwcResource = {
+      outputDropDown_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/outputDropDown/outputDropDown.js"
+      }
+      outputDropDown_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/outputDropDown/outputDropDown.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

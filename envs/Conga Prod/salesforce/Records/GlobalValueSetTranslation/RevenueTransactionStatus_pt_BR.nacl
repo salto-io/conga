@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation RevenueTransactionStatus_pt_BR@bu {
+  fullName = "RevenueTransactionStatus-pt_BR"
+}

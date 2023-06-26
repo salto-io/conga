@@ -1,0 +1,11 @@
+salesforce.RemoteSiteSetting APXTConga4__LaunchDarklyApp {
+  fullName = "APXTConga4__LaunchDarklyApp"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://app.launchdarkly.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

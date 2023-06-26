@@ -1,0 +1,27 @@
+type salesforce.APXTConga4__Conga_Solutions_Settings__c {
+  salesforce.Checkbox APXTConga4__Enable_Button_To_Solution__c {
+    apiName = "APXTConga4__Conga_Solutions_Settings__c.APXTConga4__Enable_Button_To_Solution__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Enable Button To Solution Converter"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Server_Override__c {
+    apiName = "APXTConga4__Conga_Solutions_Settings__c.APXTConga4__Server_Override__c"
+    defaultValueFormula = "\"https://composer.congamerge.com\""
+    deprecated = false
+    externalId = false
+    label = "Server Endpoint URL"
+    length = 255
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

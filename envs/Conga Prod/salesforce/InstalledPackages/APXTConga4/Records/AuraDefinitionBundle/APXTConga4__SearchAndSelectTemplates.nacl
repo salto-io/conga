@@ -1,0 +1,17 @@
+salesforce.AuraDefinitionBundle APXTConga4__SearchAndSelectTemplates {
+  apiVersion = 52
+  description = "SearchAndSelect component"
+  fullName = "APXTConga4__SearchAndSelectTemplates"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

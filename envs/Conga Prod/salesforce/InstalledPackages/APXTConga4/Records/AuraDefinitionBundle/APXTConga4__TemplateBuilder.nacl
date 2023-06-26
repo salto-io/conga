@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__TemplateBuilder {
+  apiVersion = 40
+  description = "builds templates"
+  fullName = "APXTConga4__TemplateBuilder"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  controllerContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

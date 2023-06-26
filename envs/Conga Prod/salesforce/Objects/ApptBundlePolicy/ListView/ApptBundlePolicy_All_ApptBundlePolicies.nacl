@@ -1,0 +1,8 @@
+salesforce.ListView ApptBundlePolicy_All_ApptBundlePolicies {
+  fullName = "ApptBundlePolicy.All_ApptBundlePolicies"
+  filterScope = "Everything"
+  label = "All Appointment Bundle Policies"
+  _parent = [
+    salesforce.ApptBundlePolicy,
+  ]
+}

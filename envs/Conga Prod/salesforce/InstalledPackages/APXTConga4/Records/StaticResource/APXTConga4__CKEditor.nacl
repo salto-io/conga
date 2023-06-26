@@ -1,0 +1,12 @@
+salesforce.StaticResource APXTConga4__CKEditor {
+  cacheControl = "Public"
+  contentType = "application/x-zip-compressed"
+  description = "CKEditor v. 4.4"
+  fullName = "APXTConga4__CKEditor"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__CKEditor.resource")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

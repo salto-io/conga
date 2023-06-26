@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting APXTConga4__CongaRlpNa {
+  fullName = "APXTConga4__CongaRlpNa"
+  description = "Conga Platform (RLP) - NA"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://rls.congacloud.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,8 @@
+salesforce.ListView AttributeDefinition_All_AttributeDefinitions {
+  fullName = "AttributeDefinition.All_AttributeDefinitions"
+  filterScope = "Everything"
+  label = "All Attribute Definitions"
+  _parent = [
+    salesforce.AttributeDefinition,
+  ]
+}

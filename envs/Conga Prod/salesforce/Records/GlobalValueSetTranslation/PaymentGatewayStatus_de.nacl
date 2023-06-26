@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentGatewayStatus_de@b {
+  fullName = "PaymentGatewayStatus-de"
+}

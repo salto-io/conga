@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation TaxEngine_fr@b {
+  fullName = "TaxEngine-fr"
+}

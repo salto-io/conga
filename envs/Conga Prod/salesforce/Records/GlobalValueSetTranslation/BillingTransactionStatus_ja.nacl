@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation BillingTransactionStatus_ja@b {
+  fullName = "BillingTransactionStatus-ja"
+}

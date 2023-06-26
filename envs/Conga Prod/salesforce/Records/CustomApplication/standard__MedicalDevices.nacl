@@ -1,0 +1,23 @@
+salesforce.CustomApplication standard__MedicalDevices {
+  fullName = "standard__MedicalDevices"
+  formFactors = [
+    "Small",
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  label = "Medical Devices"
+  navType = "Standard"
+  tabs = [
+    "standard-home",
+    "standard-Account",
+    "standard-Product2",
+    "standard-ProductItem",
+    "standard-WorkType",
+    "standard-Location",
+    "standard-ProductRequired",
+    "standard-ProductTransfer",
+  ]
+  uiType = "Lightning"
+}

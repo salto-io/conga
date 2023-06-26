@@ -1,0 +1,28 @@
+type salesforce.APXTConga4__EventData__c {
+  salesforce.Text APXTConga4__Kind__c {
+    apiName = "APXTConga4__EventData__c.APXTConga4__Kind__c"
+    deprecated = false
+    externalId = false
+    label = "Event kind"
+    length = 255
+    _required = true
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Raw__c {
+    apiName = "APXTConga4__EventData__c.APXTConga4__Raw__c"
+    deprecated = false
+    externalId = false
+    label = "Raw Event JSON"
+    length = 131072
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

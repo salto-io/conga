@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__TemplateStep {
+  apiVersion = 52
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__TemplateStep"
+  type = "Component"
+  rendererContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

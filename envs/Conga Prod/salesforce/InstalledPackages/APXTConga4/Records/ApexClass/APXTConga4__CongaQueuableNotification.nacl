@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__CongaQueuableNotification {
+  apiVersion = 37
+  status = "Active"
+  fullName = "APXTConga4__CongaQueuableNotification"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

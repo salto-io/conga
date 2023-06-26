@@ -1,0 +1,32 @@
+salesforce.WebLink APXTConga4__Conga_Solution__c_APXTConga4__CM_Launch_Button {
+  fullName = "APXTConga4__Conga_Solution__c.APXTConga4__CM_Launch_Button"
+  availability = "online"
+  displayType = "button"
+  encodingKey = "UTF-8"
+  hasMenubar = false
+  hasScrollbars = true
+  hasToolbar = false
+  height = 600
+  isResizable = true
+  linkType = "url"
+  masterLabel = "CM Launch Button"
+  openType = "newWindow"
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  url = '''
+https://
+{!MID( $Api.Enterprise_Server_URL_320, FIND("://", $Api.Enterprise_Server_URL_100)+3, FIND( ".com", $Api.Enterprise_Server_URL_100 )-5)}
+/servlet/servlet.Integration?lid={!APXTConga4__Conga_Solution__c.APXTConga4__Weblink_Id__c}
+&eid={!APXTConga4__Conga_Solution__c.APXTConga4__Sample_Record_Id__c}
+'''
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

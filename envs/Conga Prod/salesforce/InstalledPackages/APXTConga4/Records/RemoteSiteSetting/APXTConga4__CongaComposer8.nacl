@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting APXTConga4__CongaComposer8 {
+  fullName = "APXTConga4__CongaComposer8"
+  description = "Composer backend"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://composer.congamerge.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,17 @@
+salesforce.AuraDefinitionBundle APXTConga4__SearchAndSelectSampleRecord {
+  apiVersion = 52
+  description = "SearchAndSelect component"
+  fullName = "APXTConga4__SearchAndSelectSampleRecord"
+  type = "Component"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  rendererContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

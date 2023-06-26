@@ -1,0 +1,17 @@
+salesforce.AuraDefinitionBundle APXTConga4__TreeView {
+  apiVersion = 52
+  description = "TreeView component"
+  fullName = "APXTConga4__TreeView"
+  type = "Component"
+  helperContent = "(hidden)"
+  rendererContent = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

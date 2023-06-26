@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__CreateTemplateModal {
+  apiVersion = 52
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__CreateTemplateModal"
+  type = "Component"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  rendererContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

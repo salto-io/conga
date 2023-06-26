@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__PostInstallTEST {
+  apiVersion = 35
+  status = "Active"
+  fullName = "APXTConga4__PostInstallTEST"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

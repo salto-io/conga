@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation InvoiceRunProcessingStatus_pt_BR@bu {
+  fullName = "InvoiceRunProcessingStatus-pt_BR"
+}

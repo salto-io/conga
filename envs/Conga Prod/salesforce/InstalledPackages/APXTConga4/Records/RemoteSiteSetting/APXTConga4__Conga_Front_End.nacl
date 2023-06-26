@@ -1,0 +1,12 @@
+salesforce.RemoteSiteSetting APXTConga4__Conga_Front_End {
+  fullName = "APXTConga4__Conga_Front_End"
+  description = "Click Save and close this window"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://apxtconga4.na4.salesforce.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

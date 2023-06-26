@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation InvoiceRunStatus_de@b {
+  fullName = "InvoiceRunStatus-de"
+}

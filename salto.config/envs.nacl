@@ -1,4 +1,10 @@
 envs {
   envs = [
+    {
+      name = "Conga Prod"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
   ]
 }

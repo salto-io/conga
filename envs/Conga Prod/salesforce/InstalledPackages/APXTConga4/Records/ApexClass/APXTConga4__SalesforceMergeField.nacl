@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__SalesforceMergeField {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__SalesforceMergeField"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

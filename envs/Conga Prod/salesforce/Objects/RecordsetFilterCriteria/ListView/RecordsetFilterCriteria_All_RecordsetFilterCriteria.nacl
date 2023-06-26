@@ -1,0 +1,8 @@
+salesforce.ListView RecordsetFilterCriteria_All_RecordsetFilterCriteria {
+  fullName = "RecordsetFilterCriteria.All_RecordsetFilterCriteria"
+  filterScope = "Everything"
+  label = "All Recordset Filter Criteria"
+  _parent = [
+    salesforce.RecordsetFilterCriteria,
+  ]
+}

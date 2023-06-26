@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__TemplateTreeView {
+  apiVersion = 52
+  description = "Tree View specialized for Template step"
+  fullName = "APXTConga4__TemplateTreeView"
+  type = "Component"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  rendererContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,32 @@
+type salesforce.APXTConga4__Connected_App_Setting__mdt {
+  salesforce.Text APXTConga4__Connected_App_Name_SF1__c {
+    apiName = "APXTConga4__Connected_App_Setting__mdt.APXTConga4__Connected_App_Name_SF1__c"
+    defaultValueFormula = "\"Conga_Composer_SF1_EU\""
+    deprecated = false
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Connected App Name SF1"
+    length = 50
+    unique = false
+  }
+  salesforce.Text APXTConga4__Connected_App_Name__c {
+    apiName = "APXTConga4__Connected_App_Setting__mdt.APXTConga4__Connected_App_Name__c"
+    deprecated = false
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Connected App Name"
+    length = 50
+    _required = true
+    unique = false
+  }
+  salesforce.Text APXTConga4__Hostname__c {
+    apiName = "APXTConga4__Connected_App_Setting__mdt.APXTConga4__Hostname__c"
+    deprecated = false
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Hostname"
+    length = 255
+    _required = true
+    unique = false
+  }
+}

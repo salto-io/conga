@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentTransactionStatus_ja@b {
+  fullName = "PaymentTransactionStatus-ja"
+}

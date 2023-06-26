@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__lightningTableWrapper {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__lightningTableWrapper"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__lightningTableWrapper.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

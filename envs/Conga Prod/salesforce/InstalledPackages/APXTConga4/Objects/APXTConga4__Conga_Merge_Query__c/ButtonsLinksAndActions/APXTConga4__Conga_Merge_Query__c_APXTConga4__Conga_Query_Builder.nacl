@@ -1,0 +1,28 @@
+salesforce.WebLink APXTConga4__Conga_Merge_Query__c_APXTConga4__Conga_Query_Builder {
+  fullName = "APXTConga4__Conga_Merge_Query__c.APXTConga4__Conga_Query_Builder"
+  availability = "online"
+  displayType = "button"
+  encodingKey = "UTF-8"
+  height = 600
+  linkType = "url"
+  masterLabel = "Conga Query Builder"
+  openType = "sidebar"
+  protected = false
+  url = '''
+/apex/APXTConga4__Conga_Composer
+?ServerUrl={!$Api.Partner_Server_URL_520}
+&uiscreen=qb
+&id={!APXTConga4__Conga_Merge_Query__c.Id}
+&isLoaderAbsolute=1
+&showHeader=1
+&showSidebar=1
+'''
+  _parent = [
+    salesforce.APXTConga4__Conga_Merge_Query__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__CongaQuery {
+  apiVersion = 37
+  status = "Active"
+  fullName = "APXTConga4__CongaQuery"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

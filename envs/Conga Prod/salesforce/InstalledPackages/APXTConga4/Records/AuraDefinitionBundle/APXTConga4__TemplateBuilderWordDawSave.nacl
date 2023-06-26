@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__TemplateBuilderWordDawSave {
+  apiVersion = 44
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__TemplateBuilderWordDawSave"
+  type = "Component"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  rendererContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

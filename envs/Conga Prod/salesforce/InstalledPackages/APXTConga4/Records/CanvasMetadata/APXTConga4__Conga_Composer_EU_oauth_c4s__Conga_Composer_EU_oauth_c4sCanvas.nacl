@@ -1,0 +1,14 @@
+salesforce.CanvasMetadata APXTConga4__Conga_Composer_EU_oauth_c4s__Conga_Composer_EU_oauth_c4sCanvas {
+  fullName = "APXTConga4__Conga_Composer_EU_oauth_c4s__Conga_Composer_EU_oauth_c4sCanvas"
+  module = "Conga_Composer_EU_oauth_c4s"
+  accessMethod = "Post"
+  canvasOptions = "HS,HH"
+  canvasUrl = "https://eu-composer.congamerge.com/c8/oauthProxy.aspx"
+  locationOptions = "VF,AR,MP,PL"
+  samlInitiationMethod = "None"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

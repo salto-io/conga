@@ -1,0 +1,16 @@
+salesforce.LightningComponentBundle APXTConga4__sharedIconNameLookup {
+  fullName = "APXTConga4__sharedIconNameLookup"
+  lwcResources = {
+    lwcResource = {
+      sharedIconNameLookup_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/sharedIconNameLookup/sharedIconNameLookup.js"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

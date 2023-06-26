@@ -1,0 +1,32 @@
+salesforce.CustomApplication APXTConga4__CongaMerge {
+  fullName = "APXTConga4__CongaMerge"
+  defaultLandingTab = "APXTConga4__CreateStep"
+  description = "Conga Composer makes it easy for salesforce.com customers to create sophisticated documents, presentations and reports using data from any standard or custom object."
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  label = "Conga Composer"
+  logo = "APXTConga4__Conga/APXTConga4__CongaLogo.png"
+  tabs = [
+    salesforce.CustomTab.instance.APXTConga4__CreateStep,
+    salesforce.CustomTab.instance.APXTConga4__Conga_Composer_Setup,
+    salesforce.CustomTab.instance.APXTConga4__About_Conga_Composer,
+    salesforce.CustomTab.instance.APXTConga4__Conga_Solution__c,
+    salesforce.CustomTab.instance.APXTConga4__Conga_Template__c,
+    salesforce.CustomTab.instance.APXTConga4__Conga_Email_Template__c,
+    salesforce.CustomTab.instance.APXTConga4__Conga_Merge_Query__c,
+    salesforce.CustomTab.instance.APXTConga4__CongaMerge,
+    salesforce.CustomTab.instance.APXTConga4__Composer_QuickMerge__c,
+    salesforce.CustomTab.instance.APXTConga4__Conga_Solution_Collection,
+    salesforce.CustomTab.instance.APXTConga4__Document_History__c,
+    "standard-report",
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

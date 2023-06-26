@@ -1,0 +1,26 @@
+salesforce.CustomPageWebLink APXTConga4__Conga_Setup_Page {
+  fullName = "APXTConga4__Conga_Setup_Page"
+  availability = "online"
+  description = "Opens the Conga Setup page.  Administrators can enable various settings and choose authorized users."
+  displayType = "link"
+  encodingKey = "UTF-8"
+  hasMenubar = false
+  hasScrollbars = true
+  hasToolbar = false
+  height = 768
+  isResizable = true
+  linkType = "url"
+  masterLabel = "Conga Setup Page"
+  openType = "newWindow"
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  url = "https://composer.congamerge.com?SessionId={!$Api.Session_ID}&ServerUrl={!$Api.Partner_Server_URL_520}&uiscreen=setup"
+  width = 1024
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

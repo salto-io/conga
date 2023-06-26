@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__CustomRadioGroup {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__CustomRadioGroup"
+  type = "Component"
+  designContent = "(hidden)"
+  SVGContent = "(hidden)"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

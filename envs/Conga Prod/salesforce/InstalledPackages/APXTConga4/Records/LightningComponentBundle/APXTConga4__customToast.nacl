@@ -1,0 +1,20 @@
+salesforce.LightningComponentBundle APXTConga4__customToast {
+  fullName = "APXTConga4__customToast"
+  lwcResources = {
+    lwcResource = {
+      customToast_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/customToast/customToast.js"
+      }
+      customToast_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/customToast/customToast.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

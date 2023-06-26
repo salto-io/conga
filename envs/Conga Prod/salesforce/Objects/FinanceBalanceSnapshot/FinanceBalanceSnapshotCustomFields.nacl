@@ -1,0 +1,122 @@
+type salesforce.FinanceBalanceSnapshot {
+  salesforce.Lookup blng__CreditGLAccount__c {
+    apiName = "FinanceBalanceSnapshot.blng__CreditGLAccount__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Credit GL Account"
+    referenceTo = [
+      "blng__GLAccount__c",
+    ]
+    relationshipLabel = "Finance Balance Snapshots (Credit GL Account)"
+    relationshipName = "CreditGLAccountFinanceBalanceSnapshots"
+    createable = false
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__DebitGLAccount__c {
+    apiName = "FinanceBalanceSnapshot.blng__DebitGLAccount__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Debit GL Account"
+    referenceTo = [
+      "blng__GLAccount__c",
+    ]
+    relationshipLabel = "Finance Balance Snapshots (Debit GL Account)"
+    relationshipName = "DebitGLAccountFinanceBalanceSnapshots"
+    createable = false
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__FinanceBook__c {
+    apiName = "FinanceBalanceSnapshot.blng__FinanceBook__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Finance Book"
+    referenceTo = [
+      "blng__FinanceBook__c",
+    ]
+    relationshipLabel = "Finance Balance Snapshots"
+    relationshipName = "FinanceBookFinanceBalanceSnapshots"
+    createable = false
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__FinancePeriod__c {
+    apiName = "FinanceBalanceSnapshot.blng__FinancePeriod__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Finance Period"
+    referenceTo = [
+      "blng__FinancePeriod__c",
+    ]
+    relationshipLabel = "Finance Balance Snapshots"
+    relationshipName = "FinancePeriodFinanceBalanceSnapshots"
+    createable = false
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__GLRule__c {
+    apiName = "FinanceBalanceSnapshot.blng__GLRule__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "GL Rule"
+    referenceTo = [
+      "blng__GLRule__c",
+    ]
+    relationshipLabel = "Finance Balance Snapshots"
+    relationshipName = "GLRuleFinanceBalanceSnapshots"
+    createable = false
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__GLTreatment__c {
+    apiName = "FinanceBalanceSnapshot.blng__GLTreatment__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "GL Treatment"
+    referenceTo = [
+      "blng__GLTreatment__c",
+    ]
+    relationshipLabel = "Finance Balance Snapshots"
+    relationshipName = "GLTreatmentFinanceBalanceSnapshots"
+    createable = false
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+}

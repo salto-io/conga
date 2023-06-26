@@ -1,0 +1,14 @@
+salesforce.AuraDefinitionBundle APXTConga4__SertifiBehaviorSettings {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__SertifiBehaviorSettings"
+  type = "Component"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

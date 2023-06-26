@@ -1,0 +1,11 @@
+salesforce.APXTConga4__Conga_Solution_Export_Setting__mdt APXTConga4__Conga_Solution_Export_Setting_APXTConga4__Setting@uuuuuvuu {
+  label = "Setting"
+  protected = false
+  fullName = "APXTConga4__Conga_Solution_Export_Setting.APXTConga4__Setting"
+  APXTConga4__Conga_Solution_Export_Environment__c = "APXTConga4__NA_Production"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

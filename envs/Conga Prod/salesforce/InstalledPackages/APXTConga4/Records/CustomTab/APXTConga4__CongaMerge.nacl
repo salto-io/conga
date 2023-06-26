@@ -1,0 +1,15 @@
+salesforce.CustomTab APXTConga4__CongaMerge {
+  fullName = "APXTConga4__CongaMerge"
+  frameHeight = 700
+  hasSidebar = true
+  icon = "APXTConga4__Conga/APXTConga4__Conga_O.png"
+  label = "Conga Resources"
+  motif = "Custom352: TV Widescreen"
+  url = "https://www.congamerge.com/CongaSphere"
+  urlEncodingKey = "UTF-8"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,26 @@
+salesforce.WebLink APXTConga4__Conga_Solution__c_APXTConga4__Add_Conga_Email_Template {
+  fullName = "APXTConga4__Conga_Solution__c.APXTConga4__Add_Conga_Email_Template"
+  availability = "online"
+  displayType = "button"
+  hasMenubar = false
+  hasScrollbars = true
+  hasToolbar = false
+  height = 600
+  isResizable = true
+  linkType = "page"
+  masterLabel = "Add Conga Email Template"
+  openType = "newWindow"
+  page = salesforce.ApexPage.instance.APXTConga4__ComposerSolutionCETAdder
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

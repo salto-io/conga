@@ -1,0 +1,17 @@
+salesforce.AuraDefinitionBundle APXTConga4__AppTemplate {
+  apiVersion = 52
+  description = "SolutionApp template"
+  fullName = "APXTConga4__AppTemplate"
+  type = "Component"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  rendererContent = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

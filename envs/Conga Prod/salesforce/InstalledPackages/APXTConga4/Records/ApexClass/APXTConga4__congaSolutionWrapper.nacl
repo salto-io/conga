@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__congaSolutionWrapper {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__congaSolutionWrapper"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__congaSolutionWrapper.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

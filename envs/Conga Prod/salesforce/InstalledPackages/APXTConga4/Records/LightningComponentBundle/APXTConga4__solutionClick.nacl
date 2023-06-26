@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__solutionClick {
+  fullName = "APXTConga4__solutionClick"
+  lwcResources = {
+    lwcResource = {
+      solutionClick_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/solutionClick/solutionClick.css"
+      }
+      solutionClick_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/solutionClick/solutionClick.html"
+      }
+      solutionClick_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/solutionClick/solutionClick.js"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,27 @@
+salesforce.WebLink APXTConga4__Conga_Solution__c_APXTConga4__Button_Adder {
+  fullName = "APXTConga4__Conga_Solution__c.APXTConga4__Button_Adder"
+  availability = "online"
+  displayType = "button"
+  encodingKey = "UTF-8"
+  hasMenubar = false
+  hasScrollbars = true
+  hasToolbar = false
+  height = 600
+  isResizable = true
+  linkType = "url"
+  masterLabel = "Button Adder"
+  openType = "newWindow"
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  url = "/apex/APXTConga4__ComposerSolutionButtonAdder?csRecordId={!APXTConga4__Conga_Solution__c.Id}&objectType={!APXTConga4__Conga_Solution__c.APXTConga4__Master_Object_Type__c}&solutionRecordName={!APXTConga4__Conga_Solution__c.Name}&ButtonAPIName={!APXTConga4__Conga_Solution__c.APXTConga4__Button_Link_API_Name__c}"
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

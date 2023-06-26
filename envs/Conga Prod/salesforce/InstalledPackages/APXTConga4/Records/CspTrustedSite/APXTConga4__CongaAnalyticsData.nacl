@@ -1,0 +1,17 @@
+salesforce.CspTrustedSite APXTConga4__CongaAnalyticsData {
+  fullName = "APXTConga4__CongaAnalyticsData"
+  context = "All"
+  endpointUrl = "https://data.instrumentation.getconga.com"
+  isActive = true
+  isApplicableToConnectSrc = true
+  isApplicableToFontSrc = false
+  isApplicableToFrameSrc = false
+  isApplicableToImgSrc = false
+  isApplicableToMediaSrc = false
+  isApplicableToStyleSrc = false
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

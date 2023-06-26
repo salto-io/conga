@@ -1,0 +1,20 @@
+salesforce.LightningComponentBundle APXTConga4__relatedContactsSearch {
+  fullName = "APXTConga4__relatedContactsSearch"
+  lwcResources = {
+    lwcResource = {
+      relatedContactsSearch_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/relatedContactsSearch/relatedContactsSearch.js"
+      }
+      relatedContactsSearch_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/relatedContactsSearch/relatedContactsSearch.html"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

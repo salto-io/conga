@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__ComposerSolutionQueryAdder {
+  apiVersion = 52
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "Composer Solution Query Picker"
+  fullName = "APXTConga4__ComposerSolutionQueryAdder"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__ComposerSolutionQueryAdder.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

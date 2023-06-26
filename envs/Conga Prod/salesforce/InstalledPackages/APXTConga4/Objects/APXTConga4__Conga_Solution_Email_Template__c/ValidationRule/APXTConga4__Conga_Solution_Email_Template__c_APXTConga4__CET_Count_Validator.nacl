@@ -1,0 +1,16 @@
+salesforce.ValidationRule APXTConga4__Conga_Solution_Email_Template__c_APXTConga4__CET_Count_Validator {
+  fullName = "APXTConga4__Conga_Solution_Email_Template__c.APXTConga4__CET_Count_Validator"
+  active = false
+  description = "Only one CET is allowed per solution"
+  errorConditionFormula = "APXTConga4__Conga_Solution__r.APXTConga4__CongaEmailTemplateCount__c != 0"
+  errorDisplayField = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Email_Template__c
+  errorMessage = "Only one Conga Email Template is allowed per Conga Solution. To make changes, either modify the existing record or delete it and add a new one."
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution_Email_Template__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,17 @@
+salesforce.AuraDefinitionBundle APXTConga4__FinishVideoModal {
+  apiVersion = 40
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__FinishVideoModal"
+  type = "Component"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  styleContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

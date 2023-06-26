@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PostingStatus_fr@b {
+  fullName = "PostingStatus-fr"
+}

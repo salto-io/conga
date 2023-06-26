@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__composerEmailTemplateTab {
+  fullName = "APXTConga4__composerEmailTemplateTab"
+  lwcResources = {
+    lwcResource = {
+      composerEmailTemplateTab_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/composerEmailTemplateTab/composerEmailTemplateTab.css"
+      }
+      composerEmailTemplateTab_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/composerEmailTemplateTab/composerEmailTemplateTab.html"
+      }
+      composerEmailTemplateTab_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/composerEmailTemplateTab/composerEmailTemplateTab.js"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

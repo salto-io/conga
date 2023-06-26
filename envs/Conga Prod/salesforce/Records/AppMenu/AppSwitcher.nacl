@@ -1,0 +1,129 @@
+salesforce.AppMenu AppSwitcher {
+  fullName = "AppSwitcher"
+  appMenuItems = [
+    {
+      name = salesforce.CustomApplication.instance.standard__Platform
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Sales
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Service
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Marketing
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__ServiceConsole
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__AppLauncher
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__LightningInstrumentation
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__SalesforceCMS
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__LightningBolt
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Community
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Sites
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Content
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Chatter
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__LightningSales
+      type = "CustomApplication"
+    },
+    {
+      name = "SBQQ__QuoteQuickly"
+      type = "CustomApplication"
+    },
+    {
+      name = "blng__QuotetoCash"
+      type = "CustomApplication"
+    },
+    {
+      name = "blng__SalesforceBillingConfiguration"
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__AllTabSet
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__Commerce
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.standard__MedicalDevices
+      type = "CustomApplication"
+    },
+    {
+      name = salesforce.CustomApplication.instance.APXTConga4__CongaMerge
+      type = "CustomApplication"
+    },
+    {
+      name = "Conga_Composer"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_AP"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_EU"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_Lightning"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_Offline"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_SF1"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_SF1_AP"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Composer_SF1_EU"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Platform_prod"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Conga_Scheduler"
+      type = "ConnectedApp"
+    },
+  ]
+}

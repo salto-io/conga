@@ -1,0 +1,11 @@
+salesforce.RemoteSiteSetting APXTConga4__SalesforceOAuthTest {
+  fullName = "APXTConga4__SalesforceOAuthTest"
+  disableProtocolSecurity = false
+  isActive = true
+  url = "https://test.salesforce.com"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

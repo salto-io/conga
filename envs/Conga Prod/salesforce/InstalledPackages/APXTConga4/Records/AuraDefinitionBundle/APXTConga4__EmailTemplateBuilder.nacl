@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__EmailTemplateBuilder {
+  apiVersion = 52
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__EmailTemplateBuilder"
+  type = "Component"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  rendererContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

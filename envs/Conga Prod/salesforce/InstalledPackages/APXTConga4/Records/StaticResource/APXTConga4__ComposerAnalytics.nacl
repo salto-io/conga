@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__ComposerAnalytics {
+  cacheControl = "Private"
+  contentType = "application/javascript"
+  fullName = "APXTConga4__ComposerAnalytics"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__ComposerAnalytics.js")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

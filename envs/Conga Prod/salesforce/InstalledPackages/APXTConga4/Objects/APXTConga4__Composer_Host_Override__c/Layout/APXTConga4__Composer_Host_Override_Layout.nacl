@@ -1,0 +1,78 @@
+salesforce.Layout APXTConga4__Composer_Host_Override__c_APXTConga4__Composer_Host_Override_Layout@uuuuuubuusss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Composer_Host_Override__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Composer_Host_Override__c.field.APXTConga4__Hostname__c
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Composer_Host_Override__c.field.OwnerId
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Composer_Host_Override__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Composer_Host_Override__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "APXTConga4__Composer_Host_Override__c-APXTConga4__Composer Host Override Layout"
+  _parent = [
+    salesforce.APXTConga4__Composer_Host_Override__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

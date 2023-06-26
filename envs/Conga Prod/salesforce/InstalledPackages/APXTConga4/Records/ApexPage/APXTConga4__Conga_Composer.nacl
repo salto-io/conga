@@ -1,0 +1,14 @@
+salesforce.ApexPage APXTConga4__Conga_Composer {
+  apiVersion = 52
+  availableInTouch = false
+  confirmationTokenRequired = false
+  description = "Conga Composer makes it easy for Salesforce users to create sophisticated documents and reports using any data in Salesforce with just a few clicks."
+  label = "Conga Composer"
+  fullName = "APXTConga4__Conga_Composer"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__Conga_Composer.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

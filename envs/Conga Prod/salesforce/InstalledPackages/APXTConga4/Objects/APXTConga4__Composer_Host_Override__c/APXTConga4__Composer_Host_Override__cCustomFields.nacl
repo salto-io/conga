@@ -1,0 +1,15 @@
+type salesforce.APXTConga4__Composer_Host_Override__c {
+  salesforce.Text APXTConga4__Hostname__c {
+    apiName = "APXTConga4__Composer_Host_Override__c.APXTConga4__Hostname__c"
+    deprecated = false
+    externalId = false
+    label = "Hostname"
+    length = 255
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

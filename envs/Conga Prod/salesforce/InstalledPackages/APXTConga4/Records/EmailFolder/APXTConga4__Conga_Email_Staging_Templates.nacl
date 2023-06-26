@@ -1,0 +1,11 @@
+salesforce.EmailFolder APXTConga4__Conga_Email_Staging_Templates {
+  accessType = "Public"
+  name = "Conga Email Staging Templates"
+  publicFolderAccess = "ReadOnly"
+  fullName = "APXTConga4__Conga_Email_Staging_Templates"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation AccountingPeriodStatus_pt_BR@bu {
+  fullName = "AccountingPeriodStatus-pt_BR"
+}

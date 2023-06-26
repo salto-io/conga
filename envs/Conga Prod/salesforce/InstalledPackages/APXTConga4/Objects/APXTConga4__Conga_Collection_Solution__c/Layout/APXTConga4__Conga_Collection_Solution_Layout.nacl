@@ -1,0 +1,84 @@
+salesforce.Layout APXTConga4__Conga_Collection_Solution__c_APXTConga4__Conga_Collection_Solution_Layout@uuuuuubuusss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.APXTConga4__Description__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.APXTConga4__Conga_Collection__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.APXTConga4__Conga_Solution__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.APXTConga4__Sort_Order__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Collection_Solution__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "APXTConga4__Conga_Collection_Solution__c-APXTConga4__Conga Collection Solution Layout"
+  _parent = [
+    salesforce.APXTConga4__Conga_Collection_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

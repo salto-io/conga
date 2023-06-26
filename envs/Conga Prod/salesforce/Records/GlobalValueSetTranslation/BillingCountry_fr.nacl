@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation BillingCountry_fr@b {
+  fullName = "BillingCountry-fr"
+}

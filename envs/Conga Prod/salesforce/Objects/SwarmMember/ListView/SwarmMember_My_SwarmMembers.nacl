@@ -1,0 +1,8 @@
+salesforce.ListView SwarmMember_My_SwarmMembers {
+  fullName = "SwarmMember.My_SwarmMembers"
+  filterScope = "Mine"
+  label = "MySwarmMembers"
+  _parent = [
+    salesforce.SwarmMember,
+  ]
+}

@@ -1,0 +1,247 @@
+salesforce.Layout Location_Location_Layout@bs {
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Location.field.ParentLocationId
+            },
+            {
+              behavior = "Required"
+              field = salesforce.Location.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.Location.field.LocationType
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Location.field.Description
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.Location.field.VisitorAddressId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Location.field.TimeZone
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Location.field.DrivingDirections
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.Location.field.CreatedById
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Location.field.OwnerId
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.Location.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  miniLayout = {
+    fields = [
+      "ParentLocationId",
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "Name",
+        "AddressType",
+        "Description",
+      ]
+      relatedList = "Addresses"
+    },
+    {
+      fields = [
+        "Name",
+        "ParentRecord",
+        "Type",
+      ]
+      relatedList = "AssociatedLocations"
+    },
+    {
+      relatedList = "RelatedFileList"
+    },
+    {
+      fields = [
+        "Name",
+        "LocationType",
+        "CreatedBy",
+      ]
+      relatedList = "ChildLocations"
+    },
+    {
+      fields = [
+        "Name",
+        "Product2",
+        "QuantityOnHand",
+        "QuantityUnitOfMeasure",
+      ]
+      relatedList = "ProductItems"
+    },
+    {
+      fields = [
+        "Name",
+        "ServiceTerritory",
+        "Location",
+      ]
+      relatedList = "ServiceTerritoryLocations"
+    },
+    {
+      fields = [
+        "ASSET.NAME",
+        "ASSET.SERIAL_NUMBER",
+        "ASSET.INSTALL_DATE",
+        "ASSET.QUANTITY",
+        "ACCOUNT.NAME",
+        "CONTACT.NAME",
+        "ASSET.STATUS",
+      ]
+      relatedList = "RelatedAssetList"
+    },
+    {
+      fields = [
+        "Name",
+        "DestinationLocation",
+        "SourceLocation",
+        "Status",
+        "CreatedBy",
+      ]
+      relatedList = "DestinationReturnOrders"
+    },
+    {
+      fields = [
+        "Name",
+        "DestinationLocation",
+        "SourceLocation",
+        "Status",
+        "CreatedBy",
+      ]
+      relatedList = "SourceReturnOrders"
+    },
+    {
+      fields = [
+        "Name",
+        "ReturnOrder",
+        "DestinationLocation",
+        "SourceLocation",
+        "CreatedBy",
+      ]
+      relatedList = "DestinationReturnOrderLineItems"
+    },
+    {
+      fields = [
+        "Name",
+        "ReturnOrder",
+        "DestinationLocation",
+        "SourceLocation",
+        "CreatedBy",
+      ]
+      relatedList = "SourceReturnOrderLineItems"
+    },
+    {
+      fields = [
+        "Name",
+        "StartDate",
+        "EndDate",
+        "NextSuggestedMaintenanceDate",
+      ]
+      relatedList = "MaintenancePlans"
+    },
+    {
+      relatedList = "RelatedEntityHistoryList"
+    },
+    {
+      fields = [
+        "CreatedDate",
+        "StepStatus",
+        "OriginalActor",
+        "Actor",
+        "Comments",
+      ]
+      relatedList = "RelatedProcessHistoryList"
+    },
+    {
+      fields = [
+        "Name",
+        "Product2",
+        "SourceProductItem",
+        "QuantitySent",
+        "DestinationLocation",
+        "IsReceived",
+        "LastModifiedDate",
+      ]
+      relatedList = "SourceProductTransfers"
+    },
+    {
+      fields = [
+        "Name",
+        "Product2",
+        "SourceProductItem",
+        "QuantityReceived",
+        "SourceLocation",
+        "IsReceived",
+        "LastModifiedDate",
+      ]
+      relatedList = "DestinationProductTransfers"
+    },
+  ]
+  relatedObjects = [
+    "ParentLocationId",
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "Location-Location Layout"
+  _parent = [
+    salesforce.Location,
+  ]
+}

@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__TemplateBuilder {
+  cacheControl = "Private"
+  contentType = "image/png"
+  fullName = "APXTConga4__TemplateBuilder"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__TemplateBuilder.png")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

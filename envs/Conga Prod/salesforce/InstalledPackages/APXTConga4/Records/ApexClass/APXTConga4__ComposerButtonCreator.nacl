@@ -1,0 +1,18 @@
+salesforce.ApexClass APXTConga4__ComposerButtonCreator {
+  apiVersion = 52
+  packageVersions = [
+    {
+      majorNumber = 8
+      minorNumber = 234
+      namespace = "APXTConga4"
+    },
+  ]
+  status = "Active"
+  fullName = "APXTConga4__ComposerButtonCreator"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__ComposerButtonCreator.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

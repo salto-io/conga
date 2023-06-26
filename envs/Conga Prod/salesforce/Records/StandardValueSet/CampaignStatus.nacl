@@ -1,0 +1,4 @@
+salesforce.StandardValueSet CampaignStatus {
+  fullName = "CampaignStatus"
+  sorted = false
+}

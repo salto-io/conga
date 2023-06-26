@@ -1,0 +1,12 @@
+type salesforce.APXTConga4__Conga_Solution_Export_Environment__mdt {
+  salesforce.Text APXTConga4__Export_Endpoint__c {
+    apiName = "APXTConga4__Conga_Solution_Export_Environment__mdt.APXTConga4__Export_Endpoint__c"
+    defaultValueFormula = "\"http://composer-migration.congamerge.com\""
+    deprecated = false
+    externalId = false
+    fieldManageability = "DeveloperControlled"
+    label = "Export Endpoint"
+    length = 255
+    unique = false
+  }
+}

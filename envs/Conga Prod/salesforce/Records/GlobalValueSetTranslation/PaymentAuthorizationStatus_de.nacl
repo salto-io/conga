@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentAuthorizationStatus_de@b {
+  fullName = "PaymentAuthorizationStatus-de"
+}

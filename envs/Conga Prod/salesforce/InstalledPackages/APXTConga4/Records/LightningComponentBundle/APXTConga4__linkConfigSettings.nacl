@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__linkConfigSettings {
+  fullName = "APXTConga4__linkConfigSettings"
+  lwcResources = {
+    lwcResource = {
+      linkConfigSettings_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/linkConfigSettings/linkConfigSettings.html"
+      }
+      linkConfigSettings_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/linkConfigSettings/linkConfigSettings.js"
+      }
+      linkConfigSettings_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/linkConfigSettings/linkConfigSettings.css"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,20 @@
+salesforce.WebLink APXTConga4__Conga_Solution__c_APXTConga4__Create_New_Guided {
+  fullName = "APXTConga4__Conga_Solution__c.APXTConga4__Create_New_Guided"
+  availability = "online"
+  displayType = "massActionButton"
+  encodingKey = "UTF-8"
+  linkType = "url"
+  masterLabel = "Create New (Guided)"
+  openType = "replace"
+  protected = false
+  requireRowSelection = true
+  url = "/apex/APXTConga4__SolutionStep"
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

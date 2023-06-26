@@ -1,0 +1,24 @@
+salesforce.LightningComponentBundle APXTConga4__downloadedDocFooter {
+  fullName = "APXTConga4__downloadedDocFooter"
+  lwcResources = {
+    lwcResource = {
+      downloadedDocFooter_css@v = {
+        source = "(hidden)"
+        filePath = "lwc/downloadedDocFooter/downloadedDocFooter.css"
+      }
+      downloadedDocFooter_html@v = {
+        source = "(hidden)"
+        filePath = "lwc/downloadedDocFooter/downloadedDocFooter.html"
+      }
+      downloadedDocFooter_js@v = {
+        source = "(hidden)"
+        filePath = "lwc/downloadedDocFooter/downloadedDocFooter.js"
+      }
+    }
+  }
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

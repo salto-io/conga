@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__LightningUtils {
+  cacheControl = "Private"
+  contentType = "application/javascript"
+  fullName = "APXTConga4__LightningUtils"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__LightningUtils.js")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__AttachmentsTable {
+  apiVersion = 52
+  description = "AttachmentsTable"
+  fullName = "APXTConga4__AttachmentsTable"
+  type = "Component"
+  controllerContent = "(hidden)"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

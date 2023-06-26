@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentRunStatus_pt_BR@bu {
+  fullName = "PaymentRunStatus-pt_BR"
+}

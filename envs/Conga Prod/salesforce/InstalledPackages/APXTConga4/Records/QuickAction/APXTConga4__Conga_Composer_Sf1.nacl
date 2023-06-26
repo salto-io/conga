@@ -1,0 +1,15 @@
+salesforce.QuickAction APXTConga4__Conga_Composer_Sf1 {
+  fullName = "APXTConga4__Conga_Composer_Sf1"
+  height = 250
+  icon = salesforce.StaticResource.instance.APXTConga4__Composer_SF1_Icon
+  label = "Conga Composer"
+  optionsCreateFeedItem = false
+  page = "APXTConga4__Conga_Composer_Sf1"
+  type = "VisualforcePage"
+  width = -100
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

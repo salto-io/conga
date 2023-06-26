@@ -1,0 +1,132 @@
+salesforce.Layout APXTConga4__Conga_Solution_Email_Template__c_APXTConga4__Conga_Solution_Email_Template_Layout@uuuuuuubuussss {
+  excludeButtons = [
+    "Clone",
+    "Edit",
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Solution__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__IsDefault__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = true
+      editHeading = true
+      label = "Email Template Details"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Email_Template__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Email_Template_Name__c
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Conga_Email_Template_Group__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = true
+      detailHeading = false
+      editHeading = true
+      label = "Comment"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.APXTConga4__Comments__c
+            },
+          ]
+        },
+      ]
+      style = "OneColumn"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Solution_Email_Template__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h6000000BcrAM"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "APXTConga4__Conga_Solution_Email_Template__c-APXTConga4__Conga Solution Email Template Layout"
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution_Email_Template__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

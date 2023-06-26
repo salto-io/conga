@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__TestPasser {
+  apiVersion = 36
+  status = "Active"
+  fullName = "APXTConga4__TestPasser"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

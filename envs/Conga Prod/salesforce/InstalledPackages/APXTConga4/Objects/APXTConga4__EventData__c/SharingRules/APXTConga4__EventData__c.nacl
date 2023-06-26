@@ -1,0 +1,11 @@
+salesforce.SharingRules APXTConga4__EventData__c {
+  fullName = "APXTConga4__EventData__c"
+  _parent = [
+    salesforce.APXTConga4__EventData__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

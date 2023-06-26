@@ -1,0 +1,15 @@
+salesforce.ValidationRule OrderItem_blng__RevenueRecognitionRuleMustBeSelected {
+  fullName = "OrderItem.blng__RevenueRecognitionRuleMustBeSelected"
+  active = true
+  description = "Revenue Recognition Rule must be selected"
+  errorConditionFormula = "AND(OR(ISNEW(), AND (ISCHANGED(SBQQ__Activated__c), SBQQ__Activated__c)), ISBLANK(blng__RevenueRecognitionRule__c))"
+  errorMessage = "Revenue Recognition Rule must be selected"
+  _parent = [
+    salesforce.OrderItem,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.blng
+    },
+  ]
+}

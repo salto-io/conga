@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__ComposerMergeAttachmentTab {
+  apiVersion = 44
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__ComposerMergeAttachmentTab"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

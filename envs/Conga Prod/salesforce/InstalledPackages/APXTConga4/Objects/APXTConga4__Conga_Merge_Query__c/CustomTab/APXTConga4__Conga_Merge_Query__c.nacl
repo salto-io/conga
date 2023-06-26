@@ -1,0 +1,14 @@
+salesforce.CustomTab APXTConga4__Conga_Merge_Query__c {
+  fullName = "APXTConga4__Conga_Merge_Query__c"
+  customObject = true
+  icon = "APXTConga4__Conga/APXTConga4__Conga_O.png"
+  motif = "Custom352: TV Widescreen"
+  _parent = [
+    salesforce.APXTConga4__Conga_Merge_Query__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

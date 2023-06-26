@@ -1,0 +1,124 @@
+salesforce.Layout ContractLineOutcome_Contract_Line_Outcome_Layout@bsss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ContractLineOutcome.field.RecordsetFilterCriteriaId
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.ContractLineOutcome.field.ComplianceStatus
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.ContractLineOutcome.field.NextDataCaptureDate
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcome.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcome.field.ContractLineItemId
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcome.field.StartDate
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcome.field.CaptureFrequency
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.ContractLineOutcome.field.Description
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ContractLineOutcome.field.ServiceContractId
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcome.field.EndDate
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ContractLineOutcome.field.CalculationMethod
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "CreatedById"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "LastModifiedById"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      layoutColumns = [
+        {
+        },
+      ]
+      style = "CustomLinks"
+    },
+  ]
+  miniLayout = {
+    fields = [
+      "RecordsetFilterCriteriaId",
+      "ComplianceStatus",
+      "NextDataCaptureDate",
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "Name",
+        "Value",
+        "CaptureDate",
+      ]
+      relatedList = "ContractLineOutcomeDataset"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "ContractLineOutcome-Contract Line Outcome Layout"
+  _parent = [
+    salesforce.ContractLineOutcome,
+  ]
+}

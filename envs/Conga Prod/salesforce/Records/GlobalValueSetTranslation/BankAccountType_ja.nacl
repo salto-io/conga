@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation BankAccountType_ja@b {
+  fullName = "BankAccountType-ja"
+}

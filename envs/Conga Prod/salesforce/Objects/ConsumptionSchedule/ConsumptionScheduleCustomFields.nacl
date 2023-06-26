@@ -1,0 +1,89 @@
+type salesforce.ConsumptionSchedule {
+  salesforce.Picklist SBQQ__Category__c {
+    apiName = "ConsumptionSchedule.SBQQ__Category__c"
+    deprecated = false
+    externalId = false
+    label = "Category"
+    _required = true
+    valueSet = [
+      {
+        fullName = "Rates"
+        default = true
+        label = "Rates"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Lookup blng__BillingRule__c {
+    apiName = "ConsumptionSchedule.blng__BillingRule__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Lookup to the Billing Rule assigned"
+    label = "Billing Rule"
+    referenceTo = [
+      "blng__BillingRule__c",
+    ]
+    relationshipLabel = "Billing Rule"
+    relationshipName = "ConsumptionSchedulesBillingRule"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__RevenueRecognitionRule__c {
+    apiName = "ConsumptionSchedule.blng__RevenueRecognitionRule__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Lookup to the Revenue Recognition Rule assigned"
+    label = "Revenue Recognition Rule"
+    referenceTo = [
+      "blng__RevenueRecognitionRule__c",
+    ]
+    relationshipLabel = "Revenue Recognition Rule"
+    relationshipName = "CSsRevenueRecognitionRule"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__TaxRule__c {
+    apiName = "ConsumptionSchedule.blng__TaxRule__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Lookup to the Tax Rule assigned"
+    label = "Tax Rule"
+    referenceTo = [
+      "blng__TaxRule__c",
+    ]
+    relationshipLabel = "Tax Rule"
+    relationshipName = "ConsumptionSchedulesTaxRule"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+}

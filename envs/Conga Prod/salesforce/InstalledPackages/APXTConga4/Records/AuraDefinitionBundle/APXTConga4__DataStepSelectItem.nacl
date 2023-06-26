@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__DataStepSelectItem {
+  apiVersion = 52
+  description = "Row actions"
+  fullName = "APXTConga4__DataStepSelectItem"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  designContent = "(hidden)"
+  SVGContent = "(hidden)"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

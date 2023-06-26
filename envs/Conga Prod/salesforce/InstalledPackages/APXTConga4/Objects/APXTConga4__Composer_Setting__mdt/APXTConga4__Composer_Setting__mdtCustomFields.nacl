@@ -1,0 +1,25 @@
+type salesforce.APXTConga4__Composer_Setting__mdt {
+  salesforce.MetadataRelationship APXTConga4__Connected_App_Setting__c {
+    apiName = "APXTConga4__Composer_Setting__mdt.APXTConga4__Connected_App_Setting__c"
+    deprecated = false
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Connected App Setting"
+    referenceTo = [
+      "APXTConga4__Connected_App_Setting__mdt",
+    ]
+    relationshipLabel = "Composer Settings"
+    relationshipName = "Composer_Settings"
+    _required = true
+    unique = false
+  }
+  salesforce.Checkbox APXTConga4__Enable_Key_Generation__c {
+    apiName = "APXTConga4__Composer_Setting__mdt.APXTConga4__Enable_Key_Generation__c"
+    defaultValue = true
+    deprecated = false
+    description = "Enables key generation trigger on Conga Template, Conga Query, and Conga Email Template"
+    externalId = false
+    fieldManageability = "SubscriberControlled"
+    label = "Enable Key Generation"
+  }
+}

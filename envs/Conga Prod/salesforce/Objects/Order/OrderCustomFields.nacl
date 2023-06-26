@@ -1,0 +1,517 @@
+type salesforce.Order {
+  salesforce.Checkbox SBQQ__Contracted__c {
+    apiName = "Order.SBQQ__Contracted__c"
+    defaultValue = false
+    deprecated = false
+    description = "Indicates if the order is contracted."
+    externalId = false
+    inlineHelpText = "Indicates if the order is contracted."
+    label = "Contracted"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Picklist SBQQ__ContractingMethod__c {
+    apiName = "Order.SBQQ__ContractingMethod__c"
+    deprecated = false
+    description = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
+    externalId = false
+    inlineHelpText = "\"By Subscription End Date\" creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. \"Single Contract\" creates one Contract containing all Subscriptions, regardless of their End Dates."
+    label = "Contracting Method"
+    valueSetName = "SBQQ__ContractingMethod"
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Summary SBQQ__OrderBookings__c {
+    apiName = "Order.SBQQ__OrderBookings__c"
+    deprecated = false
+    description = "Total amount of all order product bookings."
+    externalId = false
+    inlineHelpText = "Total amount of all order product bookings."
+    label = "Order Bookings"
+    summarizedField = "OrderItem.SBQQ__OrderProductBookings__c"
+    summaryForeignKey = "OrderItem.OrderId"
+    summaryOperation = "sum"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Picklist SBQQ__PaymentTerm__c {
+    apiName = "Order.SBQQ__PaymentTerm__c"
+    deprecated = false
+    description = "The payment term for this order."
+    externalId = false
+    inlineHelpText = "The payment term for this order."
+    label = "Payment Term"
+    valueSetName = "SBQQ__PaymentTerm"
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Text SBQQ__PriceCalcStatusMessage__c {
+    apiName = "Order.SBQQ__PriceCalcStatusMessage__c"
+    deprecated = false
+    description = "The price calculation status message."
+    externalId = false
+    inlineHelpText = "The price calculation status message"
+    label = "Price Calculation Status Message"
+    length = 255
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Picklist SBQQ__PriceCalcStatus__c {
+    apiName = "Order.SBQQ__PriceCalcStatus__c"
+    deprecated = false
+    description = "The order price calculation  job status.  It is set by the system."
+    externalId = false
+    inlineHelpText = "Indicates the order price calculation job status.  It is set by the system."
+    label = "Price Calculation Status"
+    valueSetName = "SBQQ__JobStatus"
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Lookup SBQQ__Quote__c {
+    apiName = "Order.SBQQ__Quote__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    description = "The quote where the order is created from."
+    externalId = false
+    inlineHelpText = "The quote where the order is created from."
+    label = "Quote"
+    referenceTo = [
+      "SBQQ__Quote__c",
+    ]
+    relationshipLabel = "Orders"
+    relationshipName = "Orders"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Number SBQQ__RenewalTerm__c {
+    apiName = "Order.SBQQ__RenewalTerm__c"
+    deprecated = false
+    description = "Specify the term of the renewal. By default, it matches the original contract term."
+    externalId = false
+    inlineHelpText = "Specify the term of the renewal. By default, it matches the original contract term."
+    label = "Renewal Term"
+    precision = 18
+    scale = 0
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Percent SBQQ__RenewalUpliftRate__c {
+    apiName = "Order.SBQQ__RenewalUpliftRate__c"
+    deprecated = false
+    description = "Rate of renewal price increases."
+    externalId = false
+    inlineHelpText = "Rate of renewal price increases."
+    label = "Renewal Uplift (%)"
+    precision = 11
+    scale = 3
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Summary SBQQ__TaxAmount__c {
+    apiName = "Order.SBQQ__TaxAmount__c"
+    deprecated = false
+    description = "The estimated tax amount"
+    externalId = false
+    inlineHelpText = "The estimated tax amount"
+    label = "Estimated Tax"
+    summarizedField = "OrderItem.SBQQ__TaxAmount__c"
+    summaryForeignKey = "OrderItem.OrderId"
+    summaryOperation = "sum"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.SBQQ
+      },
+    ]
+  }
+  salesforce.Checkbox blng__BillNow__c {
+    apiName = "Order.blng__BillNow__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    label = "Bill Now"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Summary blng__BilledAmountwithouttax__c {
+    apiName = "Order.blng__BilledAmountwithouttax__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "The sum of all invoices for this order (excluding tax)."
+    label = "Billed Amount (without tax)"
+    summarizedField = "OrderItem.blng__BilledAmountwithouttax__c"
+    summaryForeignKey = "OrderItem.OrderId"
+    summaryOperation = "sum"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Summary blng__BilledTax__c {
+    apiName = "Order.blng__BilledTax__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "The sum of all taxes on invoices for this order."
+    label = "Billed Tax"
+    summarizedField = "OrderItem.blng__BilledTax__c"
+    summaryForeignKey = "OrderItem.OrderId"
+    summaryOperation = "sum"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__BillingAccount__c {
+    apiName = "Order.blng__BillingAccount__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Billing Account"
+    referenceTo = [
+      salesforce.Account,
+    ]
+    relationshipLabel = "Orders (Billing Account)"
+    relationshipName = "BillingAccountOrders"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Picklist blng__BillingDayOfMonth__c {
+    apiName = "Order.blng__BillingDayOfMonth__c"
+    deprecated = false
+    externalId = false
+    label = "Billing Day Of Month"
+    valueSet = [
+      {
+        fullName = "1"
+        default = false
+        label = "1"
+      },
+      {
+        fullName = "2"
+        default = false
+        label = "2"
+      },
+      {
+        fullName = "3"
+        default = false
+        label = "3"
+      },
+      {
+        fullName = "4"
+        default = false
+        label = "4"
+      },
+      {
+        fullName = "5"
+        default = false
+        label = "5"
+      },
+      {
+        fullName = "6"
+        default = false
+        label = "6"
+      },
+      {
+        fullName = "7"
+        default = false
+        label = "7"
+      },
+      {
+        fullName = "8"
+        default = false
+        label = "8"
+      },
+      {
+        fullName = "9"
+        default = false
+        label = "9"
+      },
+      {
+        fullName = "10"
+        default = false
+        label = "10"
+      },
+      {
+        fullName = "11"
+        default = false
+        label = "11"
+      },
+      {
+        fullName = "12"
+        default = false
+        label = "12"
+      },
+      {
+        fullName = "13"
+        default = false
+        label = "13"
+      },
+      {
+        fullName = "14"
+        default = false
+        label = "14"
+      },
+      {
+        fullName = "15"
+        default = false
+        label = "15"
+      },
+      {
+        fullName = "16"
+        default = false
+        label = "16"
+      },
+      {
+        fullName = "17"
+        default = false
+        label = "17"
+      },
+      {
+        fullName = "18"
+        default = false
+        label = "18"
+      },
+      {
+        fullName = "19"
+        default = false
+        label = "19"
+      },
+      {
+        fullName = "20"
+        default = false
+        label = "20"
+      },
+      {
+        fullName = "21"
+        default = false
+        label = "21"
+      },
+      {
+        fullName = "22"
+        default = false
+        label = "22"
+      },
+      {
+        fullName = "23"
+        default = false
+        label = "23"
+      },
+      {
+        fullName = "24"
+        default = false
+        label = "24"
+      },
+      {
+        fullName = "25"
+        default = false
+        label = "25"
+      },
+      {
+        fullName = "26"
+        default = false
+        label = "26"
+      },
+      {
+        fullName = "27"
+        default = false
+        label = "27"
+      },
+      {
+        fullName = "28"
+        default = false
+        label = "28"
+      },
+      {
+        fullName = "29"
+        default = false
+        label = "29"
+      },
+      {
+        fullName = "30"
+        default = false
+        label = "30"
+      },
+      {
+        fullName = "31"
+        default = false
+        label = "31"
+      },
+    ]
+    sorted = false
+    restricted = false
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Summary blng__CanceledBillings__c {
+    apiName = "Order.blng__CanceledBillings__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Total of all canceled order products."
+    label = "Canceled Billing Amount (without tax)"
+    summarizedField = "OrderItem.blng__CanceledBillings__c"
+    summaryForeignKey = "OrderItem.OrderId"
+    summaryOperation = "sum"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Picklist blng__InvoiceBatch__c {
+    apiName = "Order.blng__InvoiceBatch__c"
+    deprecated = false
+    externalId = false
+    label = "Invoice Batch"
+    valueSetName = "blng__InvoiceBatch"
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Summary blng__PendingBillings__c {
+    apiName = "Order.blng__PendingBillings__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Total pending for all order products."
+    label = "Pending Billing Amount (without tax)"
+    summarizedField = "OrderItem.blng__PendingBillings__c"
+    summaryForeignKey = "OrderItem.OrderId"
+    summaryOperation = "sum"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.FormulaCurrency blng__TotalBilling__c {
+    apiName = "Order.blng__TotalBilling__c"
+    deprecated = false
+    externalId = false
+    formula = "blng__BilledAmountwithouttax__c  +  blng__BilledTax__c"
+    formulaTreatBlanksAs = "BlankAsZero"
+    inlineHelpText = "The sum of all invoice lines and taxes for this order."
+    label = "Total Billings"
+    precision = 18
+    scale = 2
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+      {
+        reference = salesforce.Order.field.blng__BilledAmountwithouttax__c
+      },
+      {
+        reference = salesforce.Order.field.blng__BilledTax__c
+      },
+    ]
+  }
+}

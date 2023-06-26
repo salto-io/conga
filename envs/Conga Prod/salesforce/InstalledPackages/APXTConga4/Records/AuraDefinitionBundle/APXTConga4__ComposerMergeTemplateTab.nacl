@@ -1,0 +1,14 @@
+salesforce.AuraDefinitionBundle APXTConga4__ComposerMergeTemplateTab {
+  apiVersion = 44
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__ComposerMergeTemplateTab"
+  type = "Component"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

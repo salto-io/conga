@@ -1,0 +1,14 @@
+salesforce.CustomApplication standard__Chatter {
+  fullName = "standard__Chatter"
+  defaultLandingTab = "standard-home"
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  tabs = [
+    "standard-Chatter",
+    "standard-UserProfile",
+    "standard-OtherUserProfile",
+    "standard-CollaborationGroup",
+    "standard-File",
+  ]
+}

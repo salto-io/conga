@@ -1,0 +1,11 @@
+salesforce.SharingRules APXTConga4__Conga_Email_Template__c {
+  fullName = "APXTConga4__Conga_Email_Template__c"
+  _parent = [
+    salesforce.APXTConga4__Conga_Email_Template__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

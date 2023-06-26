@@ -1,0 +1,11 @@
+salesforce.SharingRules APXTConga4__Document_History__c {
+  fullName = "APXTConga4__Document_History__c"
+  _parent = [
+    salesforce.APXTConga4__Document_History__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

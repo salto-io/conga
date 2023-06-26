@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation GatewayType_fr@b {
+  fullName = "GatewayType-fr"
+}

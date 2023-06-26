@@ -1,0 +1,50 @@
+type salesforce.APXTConga4__Conga_Solution_Parameter__c {
+  salesforce.TextArea APXTConga4__Comments__c {
+    apiName = "APXTConga4__Conga_Solution_Parameter__c.APXTConga4__Comments__c"
+    deprecated = false
+    externalId = false
+    label = "Description"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.MasterDetail APXTConga4__Conga_Solution__c {
+    apiName = "APXTConga4__Conga_Solution_Parameter__c.APXTConga4__Conga_Solution__c"
+    deprecated = false
+    externalId = false
+    label = "Conga Solution"
+    referenceTo = [
+      salesforce.APXTConga4__Conga_Solution__c,
+    ]
+    relationshipLabel = "Conga Solution Parameters"
+    relationshipName = "Conga_Solution_Parameters"
+    relationshipOrder = 0
+    reparentableMasterDetail = false
+    trackTrending = false
+    writeRequiresMasterRead = false
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__Name__c {
+    apiName = "APXTConga4__Conga_Solution_Parameter__c.APXTConga4__Name__c"
+    deprecated = false
+    externalId = false
+    label = "Name"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__Value__c {
+    apiName = "APXTConga4__Conga_Solution_Parameter__c.APXTConga4__Value__c"
+    deprecated = false
+    externalId = false
+    label = "Value"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

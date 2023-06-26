@@ -1,0 +1,15 @@
+salesforce.QuickAction APXTConga4__Composer_for_Sf1 {
+  fullName = "APXTConga4__Composer_for_Sf1"
+  canvas = "APXTConga4__Conga_Composer_SF1"
+  description = "This action has been deprecated and will not work in future releases."
+  height = 415
+  label = "Conga Composer (Deprecated)"
+  optionsCreateFeedItem = false
+  type = "Canvas"
+  width = 521
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

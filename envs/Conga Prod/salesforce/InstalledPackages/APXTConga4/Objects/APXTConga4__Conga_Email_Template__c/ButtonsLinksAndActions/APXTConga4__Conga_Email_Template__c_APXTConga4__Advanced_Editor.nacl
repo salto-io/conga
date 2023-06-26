@@ -1,0 +1,28 @@
+salesforce.WebLink APXTConga4__Conga_Email_Template__c_APXTConga4__Advanced_Editor {
+  fullName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Advanced_Editor"
+  availability = "online"
+  displayType = "button"
+  encodingKey = "UTF-8"
+  height = 800
+  linkType = "url"
+  masterLabel = "Advanced Editor"
+  openType = "sidebar"
+  protected = false
+  url = '''
+/apex/APXTConga4__Conga_Composer
+?ServerUrl={!$Api.Partner_Server_URL_520}
+&Id={!APXTConga4__Conga_Email_Template__c.Id}
+&uiscreen=emaileditor
+&isLoaderAbsolute=1
+&showHeader=1
+&showSidebar=1
+'''
+  _parent = [
+    salesforce.APXTConga4__Conga_Email_Template__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

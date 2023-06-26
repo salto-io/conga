@@ -1,0 +1,41 @@
+type salesforce.APXTConga4__Conga_Collection__c {
+  salesforce.LongTextArea APXTConga4__Description__c {
+    apiName = "APXTConga4__Conga_Collection__c.APXTConga4__Description__c"
+    deprecated = false
+    externalId = false
+    label = "Description"
+    length = 32768
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox APXTConga4__Is_SF1_Enabled__c {
+    apiName = "APXTConga4__Conga_Collection__c.APXTConga4__Is_SF1_Enabled__c"
+    defaultValue = false
+    deprecated = false
+    description = "If this field is checked, this collections will be used by the Composermerge.cmp for one sObject type."
+    externalId = false
+    inlineHelpText = "If use this collection for SalesForce 1."
+    label = "Is_SF1_Enabled"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__SF1_Binding_sObject_Type__c {
+    apiName = "APXTConga4__Conga_Collection__c.APXTConga4__SF1_Binding_sObject_Type__c"
+    deprecated = false
+    description = "The sObject type associated with this collection for SF1."
+    externalId = false
+    label = "SF1_Binding_sObject_Type"
+    length = 70
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+}

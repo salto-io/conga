@@ -1,0 +1,107 @@
+salesforce.Layout ShiftTemplate_Shift_Template_Layout@bss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ShiftTemplate.field.IsNonStandard
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ShiftTemplate.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.ShiftTemplate.field.Description
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.ShiftTemplate.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.ShiftTemplate.field.IsActive
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.ShiftTemplate.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Shift Template Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.ShiftTemplate.field.StartTime
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.ShiftTemplate.field.JobProfileId
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.ShiftTemplate.field.ShiftTemplateDurationType
+            },
+            {
+              behavior = "Required"
+              field = salesforce.ShiftTemplate.field.Duration
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  miniLayout = {
+    fields = [
+      "IsNonStandard",
+    ]
+  }
+  relatedLists = [
+    {
+      fields = [
+        "Name",
+        "DayOrder",
+        "ShiftPattern",
+      ]
+      relatedList = "ShiftPatternEntries"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "ShiftTemplate-Shift Template Layout"
+  _parent = [
+    salesforce.ShiftTemplate,
+  ]
+}

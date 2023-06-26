@@ -1,0 +1,12 @@
+salesforce.AuraDefinitionBundle APXTConga4__PageChange {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__PageChange"
+  type = "Event"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

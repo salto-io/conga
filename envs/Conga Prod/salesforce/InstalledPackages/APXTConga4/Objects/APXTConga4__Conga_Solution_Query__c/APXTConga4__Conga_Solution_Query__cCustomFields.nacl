@@ -1,0 +1,114 @@
+type salesforce.APXTConga4__Conga_Solution_Query__c {
+  salesforce.Text APXTConga4__Alias__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__Alias__c"
+    deprecated = false
+    externalId = false
+    label = "Alias"
+    length = 20
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__Comments__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__Comments__c"
+    deprecated = false
+    externalId = false
+    label = "Description"
+    length = 10000
+    trackTrending = false
+    visibleLines = 5
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.FormulaText APXTConga4__Conga_Query_Name__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__Conga_Query_Name__c"
+    deprecated = false
+    externalId = false
+    formula = "APXTConga4__Conga_Query__r.APXTConga4__Name__c"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Conga Query Name"
+    trackTrending = false
+    unique = false
+    createable = false
+    updateable = false
+    caseSensitive = false
+    queryable = true
+    _hidden_value = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.APXTConga4__Conga_Solution_Query__c.field.APXTConga4__Conga_Query__c
+      },
+    ]
+  }
+  salesforce.Lookup APXTConga4__Conga_Query__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__Conga_Query__c"
+    deleteConstraint = "Restrict"
+    deprecated = false
+    externalId = false
+    label = "Conga Query"
+    referenceTo = [
+      salesforce.APXTConga4__Conga_Merge_Query__c,
+    ]
+    relationshipLabel = "Conga Solution Queries"
+    relationshipName = "Conga_Solution_Queries"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.MasterDetail APXTConga4__Conga_Solution__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__Conga_Solution__c"
+    deprecated = false
+    externalId = false
+    label = "Conga Solution"
+    referenceTo = [
+      salesforce.APXTConga4__Conga_Solution__c,
+    ]
+    relationshipLabel = "Conga Solution Queries"
+    relationshipName = "Conga_Solution_Queries"
+    relationshipOrder = 0
+    reparentableMasterDetail = false
+    trackTrending = false
+    writeRequiresMasterRead = false
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__pv0__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__pv0__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Automatically populated according to the field selected. This value will be dynamically passed to the first filter of the query. Using a plus sign (+) specifies that a blank value should be used."
+    label = "pv0"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__pv1__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__pv1__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Automatically populated according to the field selected. This value will be dynamically passed to the second filter of the query. Using a plus sign (+) specifies that a blank value should be used."
+    label = "pv1"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.TextArea APXTConga4__pv2__c {
+    apiName = "APXTConga4__Conga_Solution_Query__c.APXTConga4__pv2__c"
+    deprecated = false
+    externalId = false
+    inlineHelpText = "Automatically populated according to the field selected. This value will be dynamically passed to the third filter of the query. Using a plus sign (+) specifies that a blank value should be used."
+    label = "pv2"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

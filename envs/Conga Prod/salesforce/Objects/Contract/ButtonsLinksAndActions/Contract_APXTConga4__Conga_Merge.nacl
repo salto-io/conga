@@ -1,0 +1,37 @@
+salesforce.WebLink Contract_APXTConga4__Conga_Merge {
+  fullName = "Contract.APXTConga4__Conga_Merge"
+  availability = "online"
+  description = '''
+*** DO NOT USE THIS BUTTON ON A PAGE LAYOUT *** 
+
+COPY THE URL FROM THIS BUTTON and paste it into your own custom button or link. Then add optional parameters to finely tune the button's behavior. See the Conga Configuration Guide for details.
+'''
+  displayType = "button"
+  encodingKey = "UTF-8"
+  hasMenubar = false
+  hasScrollbars = false
+  hasToolbar = false
+  height = 660
+  isResizable = false
+  linkType = "url"
+  masterLabel = "Conga Composer"
+  openType = "newWindow"
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  url = '''
+https://composer.congamerge.com
+?serverUrl={!API.Partner_Server_URL_520}
+&id={!Contract.Id}
+'''
+  width = 900
+  _parent = [
+    salesforce.Contract,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

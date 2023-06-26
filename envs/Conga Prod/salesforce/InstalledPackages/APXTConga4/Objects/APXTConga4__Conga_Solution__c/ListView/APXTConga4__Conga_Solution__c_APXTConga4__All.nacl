@@ -1,0 +1,19 @@
+salesforce.ListView APXTConga4__Conga_Solution__c_APXTConga4__All {
+  fullName = "APXTConga4__Conga_Solution__c.APXTConga4__All"
+  columns = [
+    "NAME",
+    "APXTConga4__Master_Object_Type__c",
+    "APXTConga4__Button_Link_API_Name__c",
+    "UPDATEDBY_USER",
+  ]
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

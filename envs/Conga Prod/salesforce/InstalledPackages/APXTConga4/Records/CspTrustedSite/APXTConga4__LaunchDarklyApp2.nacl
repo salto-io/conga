@@ -1,0 +1,18 @@
+salesforce.CspTrustedSite APXTConga4__LaunchDarklyApp2 {
+  fullName = "APXTConga4__LaunchDarklyApp2"
+  context = "All"
+  description = "Update LaunchDarkly CSP for Salesforce API version 48+"
+  endpointUrl = "https://app.launchdarkly.com"
+  isActive = true
+  isApplicableToConnectSrc = true
+  isApplicableToFontSrc = false
+  isApplicableToFrameSrc = false
+  isApplicableToImgSrc = false
+  isApplicableToMediaSrc = false
+  isApplicableToStyleSrc = false
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

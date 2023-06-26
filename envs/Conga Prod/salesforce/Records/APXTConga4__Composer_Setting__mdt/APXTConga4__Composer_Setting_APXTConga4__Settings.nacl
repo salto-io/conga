@@ -1,0 +1,12 @@
+salesforce.APXTConga4__Composer_Setting__mdt APXTConga4__Composer_Setting_APXTConga4__Settings@uuuvuu {
+  label = "Settings"
+  protected = false
+  fullName = "APXTConga4__Composer_Setting.APXTConga4__Settings"
+  APXTConga4__Connected_App_Setting__c = "APXTConga4__NA_Production"
+  APXTConga4__Enable_Key_Generation__c = true
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

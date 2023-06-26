@@ -1,0 +1,14 @@
+salesforce.AuraDefinitionBundle APXTConga4__CongaComposerForSf1 {
+  apiVersion = 52
+  description = "create"
+  fullName = "APXTConga4__CongaComposerForSf1"
+  type = "Component"
+  documentationContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

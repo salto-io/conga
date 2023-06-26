@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation PaymentAuthorizationSource_pt_BR@bu {
+  fullName = "PaymentAuthorizationSource-pt_BR"
+}

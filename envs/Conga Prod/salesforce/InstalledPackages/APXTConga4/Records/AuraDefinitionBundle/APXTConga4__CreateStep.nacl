@@ -1,0 +1,15 @@
+salesforce.AuraDefinitionBundle APXTConga4__CreateStep {
+  apiVersion = 52
+  description = "create"
+  fullName = "APXTConga4__CreateStep"
+  type = "Component"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

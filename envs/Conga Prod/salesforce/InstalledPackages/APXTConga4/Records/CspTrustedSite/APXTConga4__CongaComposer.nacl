@@ -1,0 +1,17 @@
+salesforce.CspTrustedSite APXTConga4__CongaComposer {
+  fullName = "APXTConga4__CongaComposer"
+  context = "All"
+  endpointUrl = "https://*.congamerge.com"
+  isActive = true
+  isApplicableToConnectSrc = true
+  isApplicableToFontSrc = true
+  isApplicableToFrameSrc = true
+  isApplicableToImgSrc = true
+  isApplicableToMediaSrc = true
+  isApplicableToStyleSrc = true
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

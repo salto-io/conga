@@ -1,0 +1,15 @@
+salesforce.ValidationRule OrderItem_blng__TaxRuleMustBeSelected {
+  fullName = "OrderItem.blng__TaxRuleMustBeSelected"
+  active = true
+  description = "Tax Rule must be selected"
+  errorConditionFormula = "AND(OR(ISNEW(), AND (ISCHANGED(SBQQ__Activated__c), SBQQ__Activated__c)), ISBLANK(blng__TaxRule__c))"
+  errorMessage = "Tax Rule must be selected"
+  _parent = [
+    salesforce.OrderItem,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.blng
+    },
+  ]
+}

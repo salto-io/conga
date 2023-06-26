@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__Composer_Test {
+  apiVersion = 36
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "Composer_Test"
+  fullName = "APXTConga4__Composer_Test"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__Composer_Test.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

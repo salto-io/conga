@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__RemoteSiteSettingsModal {
+  apiVersion = 52
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__RemoteSiteSettingsModal"
+  type = "Component"
+  rendererContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  controllerContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

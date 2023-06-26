@@ -1,0 +1,100 @@
+type salesforce.APXTConga4__Conga_Email_Template__c {
+  salesforce.TextArea APXTConga4__Description__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Description__c"
+    deprecated = false
+    externalId = false
+    label = "Description"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Html APXTConga4__HTMLBody__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__HTMLBody__c"
+    deprecated = false
+    externalId = false
+    label = "HTML Body"
+    length = 32768
+    trackTrending = false
+    visibleLines = 25
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox APXTConga4__Is_Body_Attachment__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Is_Body_Attachment__c"
+    defaultValue = false
+    deprecated = false
+    externalId = false
+    inlineHelpText = "When enabled, Conga Composer stores the body of the HTML template as an attachment, rather than in the Rich Text field."
+    label = "Use attachment for template body"
+    trackTrending = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Key__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Key__c"
+    caseSensitive = true
+    deprecated = false
+    externalId = true
+    label = "Key"
+    length = 15
+    trackTrending = false
+    unique = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Name__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Name__c"
+    deprecated = false
+    externalId = false
+    label = "Name"
+    length = 80
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Subject__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Subject__c"
+    deprecated = false
+    externalId = false
+    label = "Subject"
+    length = 255
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.Text APXTConga4__Template_Group__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__Template_Group__c"
+    deprecated = false
+    externalId = false
+    label = "Template Group"
+    length = 80
+    trackTrending = false
+    unique = false
+    createable = true
+    updateable = true
+    caseSensitive = false
+    queryable = true
+  }
+  salesforce.LongTextArea APXTConga4__TextBody__c {
+    apiName = "APXTConga4__Conga_Email_Template__c.APXTConga4__TextBody__c"
+    deprecated = false
+    externalId = false
+    label = "Text Body"
+    length = 32768
+    trackTrending = false
+    visibleLines = 3
+    createable = true
+    updateable = true
+    queryable = true
+  }
+}

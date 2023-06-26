@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__ComposerSolutionLandingPage {
+  apiVersion = 52
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "Conga Solutions Setup"
+  fullName = "APXTConga4__ComposerSolutionLandingPage"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__ComposerSolutionLandingPage.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

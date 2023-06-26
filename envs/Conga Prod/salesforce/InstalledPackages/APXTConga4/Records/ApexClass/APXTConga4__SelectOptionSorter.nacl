@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__SelectOptionSorter {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__SelectOptionSorter"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__SelectOptionSorter.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

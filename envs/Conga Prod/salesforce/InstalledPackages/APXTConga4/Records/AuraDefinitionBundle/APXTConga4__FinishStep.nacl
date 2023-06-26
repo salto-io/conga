@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__FinishStep {
+  apiVersion = 52
+  description = "finishing"
+  fullName = "APXTConga4__FinishStep"
+  type = "Component"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  documentationContent = "(hidden)"
+  rendererContent = "(hidden)"
+  helperContent = "(hidden)"
+  styleContent = "(hidden)"
+  designContent = "(hidden)"
+  SVGContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

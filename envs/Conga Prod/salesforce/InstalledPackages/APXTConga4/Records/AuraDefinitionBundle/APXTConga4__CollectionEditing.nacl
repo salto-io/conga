@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__CollectionEditing {
+  apiVersion = 44
+  description = "finishing"
+  fullName = "APXTConga4__CollectionEditing"
+  type = "Component"
+  rendererContent = "(hidden)"
+  designContent = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  SVGContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

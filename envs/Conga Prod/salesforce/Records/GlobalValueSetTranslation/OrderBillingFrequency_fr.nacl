@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation OrderBillingFrequency_fr@b {
+  fullName = "OrderBillingFrequency-fr"
+}

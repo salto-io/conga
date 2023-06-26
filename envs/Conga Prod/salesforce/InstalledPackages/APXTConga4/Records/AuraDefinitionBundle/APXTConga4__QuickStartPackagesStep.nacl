@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__QuickStartPackagesStep {
+  apiVersion = 44
+  description = "Select a Quick Start Solution Package"
+  fullName = "APXTConga4__QuickStartPackagesStep"
+  type = "Component"
+  SVGContent = "(hidden)"
+  rendererContent = "(hidden)"
+  designContent = "(hidden)"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

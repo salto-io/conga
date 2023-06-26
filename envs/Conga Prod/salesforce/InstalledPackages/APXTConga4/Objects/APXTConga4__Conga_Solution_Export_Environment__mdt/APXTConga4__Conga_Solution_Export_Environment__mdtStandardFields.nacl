@@ -1,0 +1,14 @@
+type salesforce.APXTConga4__Conga_Solution_Export_Environment__mdt {
+  serviceid fullName {
+  }
+  string description {
+  }
+  string label {
+  }
+  boolean protected {
+  }
+  string internalId {
+    _hidden_value = true
+    localOnly = true
+  }
+}

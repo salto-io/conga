@@ -1,0 +1,17 @@
+salesforce.AuraDefinitionBundle APXTConga4__SolutionStep {
+  apiVersion = 44
+  description = "Step one of wizard"
+  fullName = "APXTConga4__SolutionStep"
+  type = "Component"
+  rendererContent = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  controllerContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

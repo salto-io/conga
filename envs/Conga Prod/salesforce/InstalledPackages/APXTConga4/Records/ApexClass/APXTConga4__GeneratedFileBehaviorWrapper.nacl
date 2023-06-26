@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__GeneratedFileBehaviorWrapper {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__GeneratedFileBehaviorWrapper"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexClass/APXTConga4__GeneratedFileBehaviorWrapper.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

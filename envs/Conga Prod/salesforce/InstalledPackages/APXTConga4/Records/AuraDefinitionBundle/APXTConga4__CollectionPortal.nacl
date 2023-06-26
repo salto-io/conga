@@ -1,0 +1,19 @@
+salesforce.AuraDefinitionBundle APXTConga4__CollectionPortal {
+  apiVersion = 52
+  description = "A Lightning Component Bundle"
+  fullName = "APXTConga4__CollectionPortal"
+  type = "Component"
+  SVGContent = "(hidden)"
+  rendererContent = "(hidden)"
+  designContent = "(hidden)"
+  markup = "(hidden)"
+  styleContent = "(hidden)"
+  documentationContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

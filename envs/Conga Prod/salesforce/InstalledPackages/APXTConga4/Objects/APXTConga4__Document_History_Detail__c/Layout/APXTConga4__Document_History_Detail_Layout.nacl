@@ -1,0 +1,92 @@
+salesforce.Layout APXTConga4__Document_History_Detail__c_APXTConga4__Document_History_Detail_Layout@uuuuuubuusss {
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.Name
+            },
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.APXTConga4__Document_History__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.APXTConga4__Document_Status__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.APXTConga4__Email_Address__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.APXTConga4__SMS_Number__c
+            },
+            {
+              behavior = "Required"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.APXTConga4__Number_of_Views__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.APXTConga4__Last_Viewed__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Document_History_Detail__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  fullName = "APXTConga4__Document_History_Detail__c-APXTConga4__Document History Detail Layout"
+  _parent = [
+    salesforce.APXTConga4__Document_History_Detail__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

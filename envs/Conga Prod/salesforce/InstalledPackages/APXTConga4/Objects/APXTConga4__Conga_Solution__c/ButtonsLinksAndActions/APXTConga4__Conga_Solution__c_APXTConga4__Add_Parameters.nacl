@@ -1,0 +1,26 @@
+salesforce.WebLink APXTConga4__Conga_Solution__c_APXTConga4__Add_Parameters {
+  fullName = "APXTConga4__Conga_Solution__c.APXTConga4__Add_Parameters"
+  availability = "online"
+  displayType = "button"
+  hasMenubar = false
+  hasScrollbars = true
+  hasToolbar = false
+  height = 600
+  isResizable = true
+  linkType = "page"
+  masterLabel = "Add Parameters"
+  openType = "newWindow"
+  page = salesforce.ApexPage.instance.APXTConga4__ComposerSolutionParameterAdder
+  position = "none"
+  protected = false
+  showsLocation = false
+  showsStatus = false
+  _parent = [
+    salesforce.APXTConga4__Conga_Solution__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

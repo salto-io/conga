@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__congaLogoPng {
+  cacheControl = "Private"
+  contentType = "image/png"
+  fullName = "APXTConga4__congaLogoPng"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__congaLogoPng.png")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

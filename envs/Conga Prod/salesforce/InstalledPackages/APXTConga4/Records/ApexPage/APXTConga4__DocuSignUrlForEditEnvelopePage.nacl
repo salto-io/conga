@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__DocuSignUrlForEditEnvelopePage {
+  apiVersion = 52
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "DocuSignUrlForEditEnvelopePage"
+  fullName = "APXTConga4__DocuSignUrlForEditEnvelopePage"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__DocuSignUrlForEditEnvelopePage.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,11 @@
+salesforce.StaticResource APXTConga4__pdfjs {
+  cacheControl = "Private"
+  contentType = "application/x-zip-compressed"
+  fullName = "APXTConga4__pdfjs"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/StaticResource/APXTConga4__pdfjs.resource")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

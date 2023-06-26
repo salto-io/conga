@@ -1,0 +1,18 @@
+salesforce.CspTrustedSite APXTConga4__CongaPlatformAuth {
+  fullName = "APXTConga4__CongaPlatformAuth"
+  context = "All"
+  description = "Conga Platform Auth token provider"
+  endpointUrl = "https://*.congaplatform.com"
+  isActive = true
+  isApplicableToConnectSrc = true
+  isApplicableToFontSrc = false
+  isApplicableToFrameSrc = true
+  isApplicableToImgSrc = false
+  isApplicableToMediaSrc = false
+  isApplicableToStyleSrc = false
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

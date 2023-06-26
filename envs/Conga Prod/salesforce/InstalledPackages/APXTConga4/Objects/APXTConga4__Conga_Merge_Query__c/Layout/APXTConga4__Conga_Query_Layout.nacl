@@ -1,0 +1,101 @@
+salesforce.Layout APXTConga4__Conga_Merge_Query__c_APXTConga4__Conga_Query_Layout@uuuuuubuuss {
+  customButtons = [
+    "APXTConga4__Conga_Query_Builder",
+  ]
+  excludeButtons = [
+    "Submit",
+  ]
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.OwnerId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.APXTConga4__Name__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.APXTConga4__Description__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.APXTConga4__Query__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.APXTConga4__Key__c
+            },
+          ]
+        },
+        {
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "System Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.CreatedById
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = salesforce.APXTConga4__Conga_Merge_Query__c.field.LastModifiedById
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsTopToBottom"
+    },
+    {
+      customLabel = true
+      detailHeading = false
+      editHeading = true
+      label = "Custom Links"
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showHighlightsPanel = false
+  showInteractionLogPanel = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  summaryLayout = {
+    masterLabel = "00h60000001NdTA"
+    sizeX = 4
+    sizeY = 0
+    summaryLayoutStyle = "Default"
+  }
+  fullName = "APXTConga4__Conga_Merge_Query__c-APXTConga4__Conga Query Layout"
+  _parent = [
+    salesforce.APXTConga4__Conga_Merge_Query__c,
+  ]
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

@@ -1,0 +1,122 @@
+type salesforce.FinanceTransaction {
+  salesforce.Lookup blng__CreditGLAccount__c {
+    apiName = "FinanceTransaction.blng__CreditGLAccount__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Credit GL Account"
+    referenceTo = [
+      "blng__GLAccount__c",
+    ]
+    relationshipLabel = "Finance Transactions (Credit GL Account)"
+    relationshipName = "CreditGLAccountFinanceTransactions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__DebitGLAccount__c {
+    apiName = "FinanceTransaction.blng__DebitGLAccount__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Debit GL Account"
+    referenceTo = [
+      "blng__GLAccount__c",
+    ]
+    relationshipLabel = "Finance Transactions (Debit GL Account)"
+    relationshipName = "DebitGLAccountFinanceTransactions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__FinanceBook__c {
+    apiName = "FinanceTransaction.blng__FinanceBook__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Finance Book"
+    referenceTo = [
+      "blng__FinanceBook__c",
+    ]
+    relationshipLabel = "Finance Transactions"
+    relationshipName = "FinanceBookFinanceTransactions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__FinancePeriod__c {
+    apiName = "FinanceTransaction.blng__FinancePeriod__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "Finance Period"
+    referenceTo = [
+      "blng__FinancePeriod__c",
+    ]
+    relationshipLabel = "Finance Transactions"
+    relationshipName = "FinancePeriodFinanceTransactions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__GLRule__c {
+    apiName = "FinanceTransaction.blng__GLRule__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "GL Rule"
+    referenceTo = [
+      "blng__GLRule__c",
+    ]
+    relationshipLabel = "Finance Transactions"
+    relationshipName = "GLRuleFinanceTransactions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+  salesforce.Lookup blng__GLTreatment__c {
+    apiName = "FinanceTransaction.blng__GLTreatment__c"
+    deleteConstraint = "SetNull"
+    deprecated = false
+    externalId = false
+    label = "GL Treatment"
+    referenceTo = [
+      "blng__GLTreatment__c",
+    ]
+    relationshipLabel = "Finance Transactions"
+    relationshipName = "GLTreatmentFinanceTransactions"
+    createable = true
+    updateable = true
+    queryable = true
+    _generated_dependencies = [
+      {
+        reference = salesforce.InstalledPackage.instance.blng
+      },
+    ]
+  }
+}

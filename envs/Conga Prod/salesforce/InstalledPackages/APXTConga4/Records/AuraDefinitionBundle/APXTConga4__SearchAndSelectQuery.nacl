@@ -1,0 +1,16 @@
+salesforce.AuraDefinitionBundle APXTConga4__SearchAndSelectQuery {
+  apiVersion = 52
+  description = "DESCRIPTION"
+  fullName = "APXTConga4__SearchAndSelectQuery"
+  type = "Component"
+  styleContent = "(hidden)"
+  rendererContent = "(hidden)"
+  controllerContent = "(hidden)"
+  helperContent = "(hidden)"
+  markup = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

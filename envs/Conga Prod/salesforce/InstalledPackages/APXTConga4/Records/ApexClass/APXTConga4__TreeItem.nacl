@@ -1,0 +1,11 @@
+salesforce.ApexClass APXTConga4__TreeItem {
+  apiVersion = 52
+  status = "Active"
+  fullName = "APXTConga4__TreeItem"
+  content = "(hidden)"
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

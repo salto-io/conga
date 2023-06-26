@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__ComposerSolutionReportAdder {
+  apiVersion = 52
+  availableInTouch = true
+  confirmationTokenRequired = false
+  label = "Composer Solution Report Picker"
+  fullName = "APXTConga4__ComposerSolutionReportAdder"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__ComposerSolutionReportAdder.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

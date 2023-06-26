@@ -1,0 +1,6 @@
+salesforce.SharingRules SerializedProduct {
+  fullName = "SerializedProduct"
+  _parent = [
+    salesforce.SerializedProduct,
+  ]
+}

@@ -1,0 +1,13 @@
+salesforce.ApexPage APXTConga4__CollectionStep {
+  apiVersion = 52
+  availableInTouch = false
+  confirmationTokenRequired = false
+  label = "Collection"
+  fullName = "APXTConga4__CollectionStep"
+  content = file("salesforce/InstalledPackages/APXTConga4/Records/ApexPage/APXTConga4__CollectionStep.page")
+  _generated_dependencies = [
+    {
+      reference = salesforce.InstalledPackage.instance.APXTConga4
+    },
+  ]
+}

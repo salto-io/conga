@@ -1,0 +1,3 @@
+salesforce.GlobalValueSetTranslation TaxStatus_fr@b {
+  fullName = "TaxStatus-fr"
+}
